@@ -1,0 +1,433 @@
+
+ /*Header*/
+
+ /* The navigation menu */
+
+ 
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(63, 101, 158);
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(254,206,1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(254,206,1);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Homemade Apple', cursive;
+    margin: 0;
+    font-size: 18px; 
+     
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn:hover {
+    background-color:rgb(254,206,1);
+    color: rgb(63, 101, 158); 
+    font-style: italic; 
+    font-weight: bold;
+
+
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(63, 101, 158);
+    width: 100%;
+    z-index: 1;
+    float: left;
+    color: rgb(254,206,1);
+    text-decoration: none;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 12px; 
+  }
+  
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: rgb(254,206,1);
+    color: rgb(63, 101, 158);
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+/*BODY GRAL */
+body {
+    
+    background-image: url(../img/bg1.jpg)
+}
+
+#h1_index {
+    text-align: left;
+    margin: 30px; 
+    padding: 10px 15px 10px 20px; 
+    border-left: solid 10px black; 
+    font-family: 'Beth Ellen', cursive;
+    font-size: 40px; 
+}
+
+#h1_pages {
+    font-family: 'Beth Ellen', cursive;
+    text-align: left;
+    border-left: solid 8px black;
+    padding: 10px; 
+}
+
+h2 {
+    font-family: 'PT Mono', monospace;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'PT Mono', monospace;
+
+}
+p {
+    font-family: 'PT Mono', monospace;
+}
+ul {
+    font-family: 'PT Mono', monospace;
+}
+ /*FOOTER*/
+
+ .footer {
+    background-color:rgb(63, 101, 158); 
+    color: rgb(254,206,1);
+    display: block; 
+    height: auto; 
+    
+    
+}
+footer a {
+    color: rgb(254,206,1); 
+    text-decoration: none;
+}
+footer ul {
+    list-style: none;
+    padding: 5px; 
+}
+footer p {
+    text-align: right; 
+}
+
+.contenedor_flex_rrss {
+    display: flex; 
+    flex-flow: row nowrap; 
+    justify-content: flex-end; 
+    padding: 10px; 
+
+}
+
+.contenedor_flex_footer {
+    display: flex; 
+    flex-flow: row nowrap; 
+    justify-content: space-around;
+}
+
+
+
+/*INDEX*/
+#contenedor_flex_index {
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: space-around; 
+}
+.index_images {
+    height: 400px;
+    width: 250px; 
+}
+
+.photo_link {
+    text-align: center;
+    font-family: 'PT Mono', monospace;
+}
+.photo_link:hover {
+    transform: scaleX(1.1) scaleY(1.1); 
+    box-shadow: 10px 10px 20px rgb(45, 44, 44);
+    font-weight: bold;
+}
+
+/* LIFE */
+.loop-portraits{
+    box-shadow: 10px 10px 10px rgb(45, 44, 44);
+    width: 200px; 
+}
+.aside-life {
+    color: rgb(45, 44, 44); 
+    background-color: rgb(254,206,1); 
+    width: fit-content;
+    height: auto; 
+    padding: 8px 16px 8px 8px; 
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(28, 26, 26);
+    font-family: 'PT Mono', monospace; 
+    margin: 50px; 
+}
+.aside-life ul{
+    list-style: none;
+
+}
+
+.aside-life a {
+    text-decoration: none; 
+    color:rgb(45, 44, 44); 
+   
+}
+
+.aside-life a:hover {
+    color: rgb(254,206,1); 
+    background-color:rgb(63, 101, 158); 
+}
+.life {
+    width: 1200px; 
+    height: 400px;
+    overflow-y: scroll;
+    background-color: rgb(12, 76, 172);
+    opacity: 0.80; 
+    margin: 50px; 
+    padding: 25px 10px 10px 10px;
+}
+
+/*LETTERS TO THEO*/
+
+.letters {
+    width: 1200px; 
+    height: 400px;
+    overflow-y: scroll;
+    background-color: rgb(12, 76, 172);
+    opacity: 0.80; 
+    margin: 50px; 
+    padding: 25px 10px 10px 10px;
+}
+
+/*LEGACY*/
+
+#quote {
+    font-family: 'PT Mono', monospace; 
+    width: 500px; 
+    height: auto; 
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: right; 
+    position: absolute; 
+    right: 40px; 
+    top: 120px; 
+    padding: 25px 10px 10px 10px; 
+    
+}
+.legacy {
+    width:1200px; 
+    height: 400px; 
+    overflow-y: scroll; 
+    background-color:rgb(12, 76, 172);
+    opacity: 0.80; 
+    margin: 50px; 
+}
+
+
+
+    
+
+  /*WORK*/
+
+.work_img {
+    width: 200px; 
+    height: 540px; 
+  }
+
+#contenedor_work_img {
+    display:flex;
+    flex-flow: row wrap; 
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+#contenedor_work_img a {
+    color: rgb(63, 101, 158); 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+#contenedor_work_img a:hover {
+    color: rgb(254,206,1); 
+    text-decoration: none; 
+    background-color:rgba(63, 101, 158, 0.5); 
+    font-weight: bold;
+
+
+ }
+
+ /*PAINTINGS*/
+
+.text {
+    display: none; 
+ }
+ .painting:hover + .text{
+    display: block; 
+    color: white; 
+    background-color:rgba(63, 101, 158, 0.5)
+ }
+
+ /*Hague paintings grid*/
+
+ .hague-paintings {
+    width: 1080px;
+    display: grid; 
+    grid-template-columns: repeat(4, 0.1fr);
+    grid-template-rows: repeat(8, 0.5fr);
+    grid-template-areas: 
+    "cabbage cabbage dunes beach"
+    "cabbage cabbage fisherman fisherman"
+    "girl tailcoat fisherman fisherman"
+    "woman tailcoat worn digger"
+    "woman nets worn digger"
+    "sch-woman stack letter1 orchard"
+    "sch-woman . letter1 orchard";
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+  .cabbage {
+    background-color: aquamarine;
+    grid-area: cabbage; 
+    padding: 10px;
+    margin: 10px; 
+    
+  }
+
+  .cabbage img {
+    width: 100%; 
+  }
+  .dunes {
+    background-color: blue;
+    grid-area: dunes;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .beach {
+    background-color: antiquewhite;
+    grid-area: beach;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+
+  }
+  .fisherman {
+    background-color: lightskyblue;
+    grid-area: fisherman;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .girl-in-the-woods {
+    background-color: violet;
+    grid-area: girl; 
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .tailcoat {
+    background-color: khaki;
+    grid-area: tailcoat; 
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .woman-in-woods {
+    background-color: crimson;
+    grid-area: woman; 
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .nets {
+    background-color: darkmagenta;
+    grid-area: nets; 
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .worn-out {
+    background-color: hotpink;
+    grid-area: worn; 
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .digger {
+    background-color: forestgreen;
+    grid-area: digger;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+
+  }
+  .sch-woman {
+    background-color: dodgerblue;
+    grid-area: sch-woman;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .stack {
+    background-color: tomato;
+    grid-area: stack;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  .letter1 {
+    background-color: deeppink;
+    grid-area: letter1;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }
+  .orchard {
+    background-color: darksalmon;
+    grid-area: orchard;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px; 
+  }

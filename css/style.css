@@ -128,26 +128,22 @@ ul {
   box-shadow: 0px 0px 10px 10px rgb(254, 191, 1);
 }
 /*INDEX*/
-#contenedor_flex_index {
-    display: flex; 
-    flex-flow: row wrap; 
-    justify-content: space-around; 
+.p-photomenu {
+text-align: center; 
+text-decoration: none; 
 }
-.index_images {
-    height: 400px;
-    width: 250px; 
-}
-
-.photo_link {
-    text-align: center;
-    font-family: 'PT Mono', monospace;
-}
-.photo_link:hover {
-    transform: scaleX(1.1) scaleY(1.1); 
-    box-shadow: 10px 10px 20px rgb(45, 44, 44);
-    font-weight: bold;
+.menu-link img {
+  display:block; 
+  justify-content: center;
+  align-items: center;
 }
 
+.photo-link {
+  text-decoration: none;
+  color: rgb(13,26,59); 
+  font-size: 20px;
+  font-weight: bold;
+}
 /* LIFE */
 .loop-portraits{
     box-shadow: 10px 10px 10px rgb(45, 44, 44);

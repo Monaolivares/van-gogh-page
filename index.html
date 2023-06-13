@@ -74,25 +74,29 @@
   
       </header>
 
-        <div><section>
-                <h1 id="h1_index">
-                Discover the  <br>
-                life of <br>
-                Vincent van Gogh</h1>
-            </section></div>
-
+        
     <main class="main_index">
+        <div class="container-fluid">
+            <div class="row">
+            <h1 id="h1_index" class="col">
+            Discover the  <br>
+            life of <br>
+            Vincent van Gogh</h1> </div>
+
+        </div>
+
         
         <!-- PHOTO MENU -->
-        <div id="contenedor_flex_index">
-
-            <a href="./pages/02vincent_life.html"><div class="photo_link"><img src="./img/paintings/self_portrait/sp_1887.jpeg" alt="" class="index_images"> <p> Vincent's Life</p></div></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3"><a href="./pages/02vincent_life.html" class="photo-link"><img src="./img/paintings/spvincent.jpg" alt="" class="index-images"> <p class="p-photomenu">Vincent's Life</p></a></div>
             
 
-            <a href="./pages/03vincent_letters.html" class="photo_link"><div><img src="./img/paintings/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project-2048x1618 copy.webp" alt="almont blossom" class="index_images"> <p>Letters to Theo</p></div></a>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 justify-content-center"><a href="./pages/03vincent_letters.html" class="photo-link"><img src="./img/paintings/blossoms.jpg" alt="almond blossom" class="index-images"> <p class="p-photomenu">Letters to Theo</p></a></div>
 
-            <a href="./pages/04vincent_legacy.html" class="photo_link"><div><img src="./img/paintings/vangoghmuseum-s0050V1962-800.jpg" alt="" class="index_images"> <p> Vicent's Legacy</p></div></a>
-            <a href="./pages/05vincent_work.html" class="photo_link"><div><img src="./img/paintings/starry_night.jpg" alt="" class="index_images"> <p> Vincent's work</p></div></a>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3"><a  href="./pages/04vincent_legacy.html" class="photo-link"><img src="./img/paintings/vangoghmuseum-s0050V1962-800.jpg" alt="" class="index-images"> <p class="p-photomenu"> Vicent's Legacy</p></a></div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3"><a  href="./pages/05vincent_work.html" class="photo-link"><img src="./img/paintings/starry_night.jpg" alt="" class="index-images"> <p class="p-photomenu"> Vincent's work</p></a> </div>
+            </div>
 
         </div>
 
@@ -101,40 +105,40 @@
         </div>
         
     </main>
-    
-
-
-
-
-    <footer>
-        <div class="footer">
-            <div> <img src="./img/logo2.png" alt="logo starry night's moon"></div>
-        <div>
-            <!-- links footer-->
+    <footer class="container-fluid contenedor-footer">
+        <div class="row">
+          <!--logo footer-->
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 col-xxl-3 justify-content-center">
+            <a href="../index.html"><img src="../img/logo2.png" alt="" class="logo-footer"></a>
+          </div>
+          <!-- links footer-->
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 justify-content-center">
+            <ul class="links-footer">
+              <li>FAQs</li>
+              <li><a href="mailto:contact@vincent.com?cc=monica.ov89@gmail.com&subject=CONTACT%20FROM%20VINCENT.COM">Contact us</a></li>
+            <li>About the team</li>
+            <li>Privacy</li>
+            </ul>
+          </div>
+  
+          <!--links rrss-->
+          <div class="col-12 col-sm-12 col-md-4 col-lg-5 col-xl-5 col-xxl-5 rrsslist">
             <ul>
-                <li><a href="">FAQs</a></li>
-                <li><a href="mailto:contact@vincent.cl?cc=monica.ov89@gmail.com&subject=CONTACT%20FROM%20VINCENT.CL">Contact us</a></li>
-                <li><a href="">About the author</a></li>
-                <li>Privacy Policy</li>
+              <li><a href="https://facebook.com/vincent_com""><img src="./img/facebook_logo.png" alt="facebook logo" class="rrss-logo"></a></li>
+              <li><a href="https://instagram.com/vincent_com""></a><img src="./img/instagram_logo.png" alt="instagram logo" class="rrss-logo"></li>
+              <li><a href="https://twitter.com/vincent_com"><img src="./img/twitter_logo.png" alt="twitter logo" class="rrss-logo"></a></li>
+              <li><a href="https://www.youtube.com/@VanGoghMuseum"><img src="./img/youtube_logo.png" alt="youtube logo" class="rrss-logo"></a></li>
             </ul>
-            <!-- links to social media-->
-            <ul class="contenedor_flex_rrss">
-                <li><a href="https://www.instagram.com/vincent_cl"><img src="./img/instagram_logo.png" alt="instagram icon"></a></li>
-                <li><a href="https://www.facebook.com/vincent_cl"><img src="./img/facebook_logo.png" alt="facebook logo"></a></li>
-                <li><a href="https://www.twitter.com/vincent_cl"><img src="./img/twitter_logo.png" alt="twitter logo"></a></li>
-                <li><a href="http://www.youtube.com/vincent_cl"><img src="./img/youtube_logo.png" alt="youtube logo"></a></li>
-            </ul>
-            <p> Copyright© 2023 Vincent.cl</p>
-
+          </div>
         </div>
+  
+      </footer>
 
-        </div>
-        
 
-        
+
+
     
 
-    </footer>
     
 <!-- script bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

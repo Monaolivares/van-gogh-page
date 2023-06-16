@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vincent - Work </title>
     <link rel="shortcut icon" href="../img/favicon_2png.png">
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/favicon_2png.png">
+    <!--css link -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,35 +25,48 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- navigation var-->
     <header>
-        <nav>
-            <div class="navbar">
-                <a href="../index.html" id="home"> <img src="../img/logo2.png" alt=""></a>
-                <div class="subnav"> 
-                    <button class="subnavbtn"><i class="fa fa-caret-down"></i><a href="02vincent_life.html">Life</a></button>
-                </div>
-                <div class="subnav"> 
-                    <button class="subnavbtn"><i class="fa fa-caret-down"></i> <a href="03vincent_letters.html"> Letter to Theo</a></button>
-                </div>
-                <div class="subnav">
-                    <button class="subnavbtn"><i class="fa fa-caret-down"></i><a href="04vincent_legacy.html"> Legacy</a></button>
-            
-                </div>
-                <div class="subnav"> 
-                    <button class="subnavbtn"><i class="fa fa-caret-down"></i><a href="05vincent_work.html">Work</a></button>
-                    <div class="subnav-content">
-                        <a href="06work_hague.html">The Hague</a>
-                        <a href="07work_nuenen.html">Nuenen-Antwerp</a>
-                        <a href="08work_paris.html">Paris</a>
-                        <a href="09work_arles.html">Arles</a>
-                        <a href="10work_saint-remy.html">Saint-Rémy</a>
-                        <a href="11work_auvers.html">Auvers-sur-Oise</a>
-                        
-                    </div>
-                </div>
-            </div>
-            
-        </nav>
+      <nav class="navbar navbar-expand-lg barra-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/logo2.png" alt="Moon logo " class="nav-logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon btn-collapsed"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--items nav-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!--Life-->
+              <li class="nav-item menu-item">
+                <a class="nav-link active menu-link" aria-current="page" href="02vincent_life.html"><span class="span-menu">Life</span></a>
+              </li>
+              <!--Letter to Theo-->
+              <li class="nav-item menu-item">
+                <a class="nav-link menu-link" href="03vincent_letters.html"><span class="span-menu">Letters to Theo</span></a>
+              </li>
+              <!--Legacy -->
+              <li class="nav-item menu-item">
+                <a class="nav-link menu-link href="04vincent_legacy.html"><span class="span-menu">Legacy</span></a>
+              </li>
+              <!-- work drop down-->
+              <li class="nav-item dropdown menu-item">
+                <a class="nav-link dropdown-toggle menu-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class="span-menu">Work</span>
+                </a>
+                <ul class="dropdown-menu dropdown-stuff">
+                  <li class="dropdown-item"><a class="menu-link" href="05vincent_work.html"><span class="span-menu">Vincent's 
+                    Work</span></a></li>
+                  <li class="dropdown-item"><a class="menu-link" href="06work_hague.html"><span class="span-menu">The Hague</span></a></li>
+                  <li class="dropdown-item"><a class="menu-link" href="07work_nuenen.html"><span class="span-menu">Nuenen - Antwerp</span></a></li>
+                  <li class="dropdown-item"><a class="menu-link" href="08work_paris.html"><span class="span-menu">Paris</span></a></li>
+                  <li class="dropdown-item"><a class="menu-link" href="09work_arles.html"><span class="span-menu">Arles</span></a></li>
+                  <li class="dropdown-item"><a class="menu-link" href="10work_saint-remy.html"><span class="span-menu">Saint - Rémy</span></a></li>
+                  <li class="dropdown-item"><a class="menu-link" href="11work_auvers.html"><span class="span-menu">Auvers - sur - Oise</span></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
         
 
     </header>
@@ -76,29 +93,36 @@
        
 
     </main>
-    <footer>
-        <div class="footer">
-            <div> <img src="../img/logo2.png" alt="logo starry night's moon"></div>
-        <div>
-            <!-- links footer-->
+    <footer class="container-fluid contenedor-footer">
+        <div class="row">
+          <!--logo footer-->
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 divlogofooter">
+            <a href="../index.html"><img src="../img/logo2.png" alt="" class="logo-footer"></a>
+          </div>
+          <!-- links footer-->
+          <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4 divlinksfooter">
+            <ul class="links-footer">
+              <li>FAQs</li>
+              <li><a href="mailto:contact@vincent.com?cc=monica.ov89@gmail.com&subject=CONTACT%20FROM%20VINCENT.COM">Contact us</a></li>
+            <li>About the team</li>
+            <li>Privacy</li>
+            </ul>
+          </div>
+  
+          <!--links rrss-->
+          <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-4 col-xxl-4 rrsslist">
             <ul>
-                <li><a href="">FAQs</a></li>
-                <li><a href="mailto:contact@vincent.cl?cc=monica.ov89@gmail.com&subject=CONTACT%20FROM%20VINCENT.CL">Contact us</a></li>
-                <li><a href="">About the author</a></li>
-                <li>Privacy Policy</li>
+              <li><a href="https://facebook.com/vincent_com""><img src="../img/facebook_logo.png" alt="facebook logo" class="rrss-logo"></a></li>
+              <li><a href="https://instagram.com/vincent_com""></a><img src="../img/instagram_logo.png" alt="instagram logo" class="rrss-logo"></li>
+              <li><a href="https://twitter.com/vincent_com"><img src="../img/twitter_logo.png" alt="twitter logo" class="rrss-logo"></a></li>
+              <li><a href="https://www.youtube.com/@VanGoghMuseum"><img src="../img/youtube_logo.png" alt="youtube logo" class="rrss-logo"></a></li>
             </ul>
-            <!-- links to social media-->
-            <ul class="contenedor_flex_rrss">
-                <li><a href="https://www.instagram.com/vincent_cl"><img src="../img/instagram_logo.png" alt="instagram icon"></a></li>
-                <li><a href="https://www.facebook.com/vincent_cl"><img src="../img/facebook_logo.png" alt="facebook logo"></a></li>
-                <li><a href="https://www.twitter.com/vincent_cl"><img src="../img/twitter_logo.png" alt="twitter logo"></a></li>
-                <li><a href="http://www.youtube.com/vincent_cl"><img src="../img/youtube_logo.png" alt="youtube logo"></a></li>
-            </ul>
-            <p> Copyright© 2023 Vincent.cl</p>
-
+          </div>
         </div>
-
-        </div>
-    </footer>
+  
+      </footer>
+      <!-- script bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
 </body>
 </html>

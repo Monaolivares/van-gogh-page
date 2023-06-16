@@ -96,12 +96,29 @@ ul {
 .contenedor-footer {
   background-color: rgb(13,26,59);
   color:rgb(254, 191, 1); 
-  padding: 40px; 
+  padding: 25px; 
   display: block; 
 
 }
-.links-footer {
+
+.divlogofooter{
+  display: flex; 
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px;
+}
+.divlinksfooter {
+  display:flex; 
   justify-content: center;
+  align-items: center;
+  margin: 15px; 
+}
+.rrsslist {
+  display: flex; 
+  justify-content: space-evenly;
+  align-items: center;
+}
+.links-footer {
   list-style: none;
   
 }
@@ -112,10 +129,10 @@ ul {
 .rrsslist li{
   display: inline; 
 }
-.logo-footer{ 
-  justify-self: center; 
-  align-self: center;
-}
+
+
+  
+
 .logo-footer:hover {
   background-color: rgb(254, 191, 1); 
   border-radius: 50%;
@@ -132,6 +149,9 @@ ul {
 text-align: center; 
 text-decoration: none; 
 }
+.photo-menu:hover {
+  transform: scaleX(1.1) scaleY(1.1); 
+}
 .menu-link img {
   display:block; 
   justify-content: center;
@@ -147,7 +167,7 @@ text-decoration: none;
 /* LIFE */
 .loop-portraits{
     box-shadow: 10px 10px 10px rgb(45, 44, 44);
-    width: 200px; 
+    
 }
 .aside-life {
     color: rgb(45, 44, 44); 
@@ -180,6 +200,7 @@ text-decoration: none;
     height: 400px;
     overflow-y: scroll;
     background-color: rgb(12, 76, 172);
+    color: beige; 
     opacity: 0.80; 
     margin: 50px; 
     padding: 25px 10px 10px 10px;
@@ -259,4 +280,7 @@ text-decoration: none;
  .carousel-icon {
   background-color: rgba(45, 44, 44, 50);
   border-radius: 50%;
+ }
+ .carousel-text{
+  background-color: rgba(58, 63, 70, 0.3);
  }

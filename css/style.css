@@ -57,6 +57,7 @@ color: rgb(254, 191, 1);
 body {
     
     background-color:  rgb(249, 202, 61); 
+    height: 100vh;
 }
 
 #h1_index {
@@ -98,6 +99,9 @@ ul {
   color:rgb(254, 191, 1); 
   padding: 25px; 
   display: block; 
+  position: fixed;
+  bottom: 0;
+  
 
 }
 
@@ -145,6 +149,11 @@ ul {
   box-shadow: 0px 0px 10px 10px rgb(254, 191, 1);
 }
 /*INDEX*/
+
+.photo-menu-container {
+  margin: 30px; 
+  padding: 10px; 
+}
 .p-photomenu {
 text-align: center; 
 text-decoration: none; 
@@ -247,33 +256,12 @@ text-decoration: none;
     
 
   /*WORK*/
-
-.work_img {
-    width: 200px; 
-    height: 540px; 
-  }
-
-#contenedor_work_img {
-    display:flex;
-    flex-flow: row wrap; 
-    justify-content: space-evenly; 
-    align-items: center;
+.work-menu-link {
+  text-decoration: none; 
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(13,26,59); 
 }
-
-#contenedor_work_img a {
-    color: rgb(63, 101, 158); 
-    text-decoration: none; 
-    font-weight: bold;
-}
-
-#contenedor_work_img a:hover {
-    color: rgb(254,206,1); 
-    text-decoration: none; 
-    background-color:rgba(63, 101, 158, 0.5); 
-    font-weight: bold;
-
-
- }
 
  /*PAINTINGS*/
 

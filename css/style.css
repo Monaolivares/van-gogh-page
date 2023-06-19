@@ -99,8 +99,7 @@ ul {
   color:rgb(254, 191, 1); 
   padding: 25px; 
   display: block; 
-  position: fixed;
-  bottom: 0;
+  margin: 15px 0 0 0; 
   
 
 }
@@ -109,7 +108,7 @@ ul {
   display: flex; 
   justify-content: space-evenly;
   align-items: center;
-  margin: 15px;
+  
 }
 .divlinksfooter {
   display:flex; 
@@ -133,9 +132,6 @@ ul {
 .rrsslist li{
   display: inline; 
 }
-
-
-  
 
 .logo-footer:hover {
   background-color: rgb(254, 191, 1); 
@@ -271,4 +267,14 @@ text-decoration: none;
  }
  .carousel-text{
   background-color: rgba(58, 63, 70, 0.3);
+ }
+.div-carousel-container {
+  margin: 20px; 
+}
+ @media (max-width: 900px){
+  .p-carousel {
+    display: none;
+ }
+ .carousel-caption h5 {
+  font-size: 15px; 
  }

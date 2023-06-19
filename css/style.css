@@ -170,21 +170,40 @@ text-decoration: none;
   font-weight: bold;
 }
 /* LIFE */
-.loop-portraits{
-    box-shadow: 10px 10px 10px rgb(45, 44, 44);
-    
-}
 .aside-life {
-    color: rgb(45, 44, 44); 
-    background-color: rgb(254,206,1); 
+    color: beige; 
+    background-color: rgb(75, 100, 137); 
     width: fit-content;
     height: auto; 
     padding: 8px 16px 8px 8px; 
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 10px 10px 10px rgb(28, 26, 26);
     font-family: 'PT Mono', monospace; 
     margin: 50px; 
+
 }
+
+@media (max-width: 900px) {
+  .aside-life {
+    font-size: 11px; 
+    padding: 3px; 
+
+  }
+  .life h2 {
+    font-size: 18px; 
+    font-weight: bold;
+  }
+  .life h3 {
+    font-size: 16px; 
+    font-weight: bold; 
+  }
+  .life p{
+    font-size: 13px; 
+  }
+  
+}
+
+
 .aside-life ul{
     list-style: none;
 
@@ -192,7 +211,7 @@ text-decoration: none;
 
 .aside-life a {
     text-decoration: none; 
-    color:rgb(45, 44, 44); 
+    color: beige;  
    
 }
 
@@ -201,8 +220,7 @@ text-decoration: none;
     background-color:rgb(63, 101, 158); 
 }
 .life {
-    width: 1200px; 
-    height: 400px;
+    height: 500px;
     overflow-y: scroll;
     background-color: rgb(12, 76, 172);
     color: beige; 
@@ -214,10 +232,10 @@ text-decoration: none;
 /*LETTERS TO THEO*/
 
 .letters {
-    width: 1200px; 
-    height: 400px;
+    height: 500px;
     overflow-y: scroll;
     background-color: rgb(12, 76, 172);
+    color: beige; 
     opacity: 0.80; 
     margin: 50px; 
     padding: 25px 10px 10px 10px;
@@ -227,28 +245,59 @@ text-decoration: none;
 
 #quote {
     font-family: 'PT Mono', monospace; 
-    width: 500px; 
+    width: 35%; 
     height: auto; 
-    font-size: 20px; 
+    font-size: 18px; 
     font-weight: bold; 
-    text-align: right; 
-    position: absolute; 
-    right: 40px; 
-    top: 120px; 
-    padding: 25px 10px 10px 10px; 
+    text-align: right;
+    margin: 20px 5px 10px 10px; 
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: flex-end; 
     
 }
+.p-quote {
+  align-self: flex-end;
+}
+
+@media (max-width: 900px){
+  #quote{ 
+    font-size: 15px; 
+    font-weight: bold;
+    width: 300px; 
+
+  }
+ 
+  .legacy h2 {
+    font-size: 18px; 
+    font-weight: bold;
+  }
+  .legacy h3 {
+    font-size: 16px; 
+    font-weight: bold; 
+  }
+  .legacy p{
+    font-size: 13px; 
+}
+.legacy ul {
+  font-size: 13px; 
+}
+p-legacy {
+  font-size: 14px; 
+}
+}
+
 .legacy {
-    width:1200px; 
-    height: 400px; 
+    height: 500px; 
     overflow-y: scroll; 
     background-color:rgb(12, 76, 172);
     opacity: 0.80; 
-    margin: 50px; 
+    color: beige; 
+    margin: 30px 0 30px 0; 
 }
-
-
-
+.legacy ul {
+  list-style: square;
+}
     
 
   /*WORK*/
@@ -271,10 +320,13 @@ text-decoration: none;
 .div-carousel-container {
   margin: 20px; 
 }
- @media (max-width: 900px){
-  .p-carousel {
-    display: none;
- }
- .carousel-caption h5 {
-  font-size: 15px; 
- }
+ @media (max-width: 900px) {
+  .p-carousel{
+    display: none; 
+   }
+  
+   .carousel-caption h5 {
+    font-size: 15px; 
+   }
+  }
+ 

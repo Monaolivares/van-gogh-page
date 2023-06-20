@@ -240,6 +240,23 @@ text-decoration: none;
     margin: 50px; 
     padding: 25px 10px 10px 10px;
 }
+@media (max-width: 900px){
+ 
+  .letters h2 {
+    font-size: 18px; 
+    font-weight: bold;
+  }
+  .letters h3 {
+    font-size: 16px; 
+    font-weight: bold; 
+  }
+  .letters p{
+    font-size: 13px; 
+}
+.letters-photo{
+  transform: scaleX(0.7) scaleY(0.7); 
+}
+}
 
 /*LEGACY*/
 
@@ -306,6 +323,9 @@ p-legacy {
   font-weight: bold;
   font-size: 15px;
   color: rgb(13,26,59); 
+}
+.container-photos-work {
+  margin: 15px 10px 10px 40px; 
 }
 
  /*PAINTINGS*/

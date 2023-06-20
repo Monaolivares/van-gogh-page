@@ -58,11 +58,12 @@ body {
     
     background-color:  rgb(249, 202, 61); 
     height: 100vh;
+    
 }
 
 #h1_index {
     text-align: left;
-    margin: 30px; 
+    margin: 30px 0 10px 20px; 
     padding: 10px 15px 10px 20px; 
     border-left: solid 10px black; 
     font-family: 'Beth Ellen', cursive;
@@ -75,6 +76,7 @@ body {
     border-left: solid 8px rgb(24, 22, 22);
     padding: 10px; 
     margin: 20px; 
+    width: 300px; 
 }
 
 h2 {
@@ -147,8 +149,18 @@ ul {
 /*INDEX*/
 
 .photo-menu-container {
-  margin: 30px; 
+  margin: 30px 0px 0px 20px; 
   padding: 10px; 
+  
+
+}
+.row-photo-menu {
+  margin: none; 
+  padding: none;
+}
+.photo-menu{
+  display: flex; 
+  justify-content: center;
 }
 .p-photomenu {
 text-align: center; 
@@ -325,9 +337,18 @@ p-legacy {
   color: rgb(13,26,59); 
 }
 .container-photos-work {
-  margin: 15px 10px 10px 40px; 
-}
+  margin: 30px 5px 30px 30px; 
+  width: 100%; 
 
+}
+.work-menu-photo {
+  display:flex;
+  justify-content: center;
+}
+.row-work-photos {
+  margin: none; 
+  padding: none;  
+}
  /*PAINTINGS*/
 
  .carousel-icon {
@@ -340,6 +361,10 @@ p-legacy {
 .div-carousel-container {
   margin: 20px; 
 }
+
+.container-auvers {
+  margin: 30px 10px 30px 10px; 
+}
  @media (max-width: 900px) {
   .p-carousel{
     display: none; 
@@ -349,4 +374,6 @@ p-legacy {
     font-size: 15px; 
    }
   }
+
+
  

@@ -58,18 +58,22 @@ body {
     
     background-color:  rgb(249, 202, 61); 
     height: 100vh;
+    margin: 0; 
     
 }
 
 #h1_index {
     text-align: left;
-    margin: 30px 0 10px 20px; 
+    margin: 50px 0 10px 20px; 
     padding: 10px 15px 10px 20px; 
     border-left: solid 10px black; 
     font-family: 'Beth Ellen', cursive;
     font-size: 40px; 
+    width: 350px; 
 }
-
+.h1-row-index {
+  width: 350px; 
+}
 #h1_pages {
     font-family: 'Beth Ellen', cursive;
     text-align: left;
@@ -149,18 +153,21 @@ ul {
 /*INDEX*/
 
 .photo-menu-container {
-  margin: 30px 0px 0px 20px; 
-  padding: 10px; 
-  
+  margin: 30px 0px 0px 20px;  
+  overflow-x: hidden;
 
 }
 .row-photo-menu {
-  margin: none; 
-  padding: none;
+  --bs-gutter-x: 0; 
+
+}
+row-p-index {
+  --bs-gutter-x:0; 
 }
 .photo-menu{
   display: flex; 
   justify-content: center;
+  align-items: center;
 }
 .p-photomenu {
 text-align: center; 
@@ -311,7 +318,7 @@ text-decoration: none;
 .legacy ul {
   font-size: 13px; 
 }
-p-legacy {
+.p-legacy {
   font-size: 14px; 
 }
 }
@@ -339,6 +346,7 @@ p-legacy {
 .container-photos-work {
   margin: 30px 5px 30px 30px; 
   width: 100%; 
+  
 
 }
 .work-menu-photo {
@@ -348,6 +356,7 @@ p-legacy {
 .row-work-photos {
   margin: none; 
   padding: none;  
+  
 }
  /*PAINTINGS*/
 

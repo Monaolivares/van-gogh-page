@@ -1,0 +1,34 @@
+@import '../abstract/variables';
+@import '../abstract/listas'; 
+@import '../abstract/mapas'; 
+
+.container-p-index{
+    margin: nth($margin, 1 );
+    font-family: $pt-mono;
+    font-size: nth($fonts-size , 6 );
+    @media (max-width:900px) {
+        margin:nth($margin, 2);
+    }
+}
+.photo-menu-container{ 
+    margin: nth($margin, 1 );
+    @media (max-width: 900px) {
+        margin:nth($margin, 2);
+    }
+    .photo-menu {
+        font-family: $pt-mono;
+        &:hover{
+            transform: map-get($glow-hover, trans3 );
+            font-weight: bolder;
+            font-family: $gochi;
+            font-size: nth($fonts-size, 9);
+            
+            }
+        }
+    }
+    .photo-link{
+        text-decoration: none;
+        color: nth($colores , 4 );
+        
+        
+    }

@@ -1,0 +1,53 @@
+@import '../abstract/variables'; 
+@import '../abstract/listas';
+@import '../abstract/mapas'; 
+
+
+
+.barra-nav {
+    background-color: nth($colores , 3);
+
+    .nav-logo:hover {
+        background-color: map-get($glow-hover, bgc-gh );
+        border-radius: map-get($glow-hover , br-gh ); 
+        box-shadow: map-get($glow-hover , bs-gh );
+       
+    
+    }
+    .dropdown-stuff {
+        background-color: nth($colores , 3);
+        &:hover {
+            background-color: nth($colores, 3);
+        }
+
+        .dp-item:hover{
+            background-color: nth($colores , 3);
+        
+        
+        }
+    }
+
+    .menu-link {
+        font-family: $gochi;
+        font-size: nth($fonts-size, 5);
+        color: nth($colores , 2 )!important; /*no dejaba cambiarlo por bs*/
+        text-decoration: none;
+        &:hover {
+            color: nth($colores, 3) !important; 
+        }
+        .span-menu:hover {
+            background-color: map-get($glow-hover, bgc-gh);
+            box-shadow: map-get($glow-hover, bs-gh);
+            border-radius: map-get($glow-hover, br-gh );
+        }
+
+        
+    }
+}
+
+
+
+
+
+
+

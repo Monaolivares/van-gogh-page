@@ -1,0 +1,57 @@
+@import '../abstract/variables'; 
+@import '../abstract/listas'; 
+@import '../abstract/mapas'; 
+
+
+
+.contenedor-footer {
+    background-color: nth($colores , 3);
+    margin:nth($margin, 4); 
+    .divlogofooter { 
+        display: nth($flex , 1 ); 
+        justify-content: nth($flex , 2 );
+        align-items: nth($flex , 2 );
+
+        .logo-footer:hover {
+            background-color: map-get($glow-hover , bgc-gh );
+            box-shadow: map-get($glow-hover , bs-gh );
+            border-radius: map-get($glow-hover , br-gh );
+            transform: map-get($glow-hover , trans2 ); 
+
+    } } 
+    .divlinksfooter{
+        display: nth($flex , 1 ); 
+        justify-content: nth($flex , 2 );
+        align-items: nth($flex , 2 );
+        .links-footer{
+            color: nth($colores , 2 ); 
+            li{
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+                color: nth($colores , 2 ); 
+            }
+        }
+
+    }
+    .rrsslist{
+        display: nth($flex , 1 ); 
+        justify-content: nth($flex , 2 );
+        align-items: nth($flex , 2 );
+        .rrss-logo:hover{
+            background-color: map-get($glow-hover , bgc-gh );
+            box-shadow: map-get($glow-hover , bs-gh );
+            border-radius: map-get($glow-hover , br-gh );
+            transform: map-get($glow-hover , trans1 );
+
+        }
+        li{
+            display: inline; 
+            text-decoration: none;
+        }
+
+    }
+
+}
+

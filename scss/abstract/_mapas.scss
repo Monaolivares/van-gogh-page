@@ -1,0 +1,18 @@
+$glow-hover: (
+    bs-gh: 0px 0px 10px 20px rgb(254, 191, 1), 
+    br-gh: 50%, 
+    bgc-gh: rgb(254, 191, 1), 
+    trans1: scaleX(1.2) scaleY(1.2), 
+    trans2: scaleX(1.5) scaleY(1.5), 
+    trans3: scaleX(1.1) scaleY(1.1),
+);
+
+
+$block-text: (
+    height: 500px,  
+    fondo: rgba(13,26,59, 0.9), 
+    scroll: scroll, 
+    margen: 50px,
+    letra: rgb(254, 191, 1), 
+    pad: 15px, 
+); 

@@ -1,0 +1,52 @@
+@import '../abstract/variables'; 
+@import '../abstract/listas'; 
+@import '../abstract/mapas'; 
+
+.letters {
+    p {
+        font-family: $pt-mono;
+        font-size: nth($fonts-size, 6);
+        @media (max-width: 900px){
+            font-size: nth($fonts-size, 8);
+            
+        }
+    }
+    h2 {
+        font-family: $gochi;
+        font-size: nth($fonts-size, 3);
+        font-weight: bold;
+        @media (max-width:900px) {
+            font-size: nth($fonts-size, 5);
+        }
+
+    }
+    h3 {
+        font-family: $pt-mono;
+        font-size: nth($fonts-size, 9);
+        font-weight: bold;
+        @media (max-width:900px) {
+            font-size: nth($fonts-size, 5);
+        }
+    }
+
+    .div-imgletter {
+        display: nth($flex, 1); 
+        justify-content: nth($flex, 2);
+        .letters-photo{
+            border-radius: 50%;
+        }
+
+    }
+    .div-imgletters {
+        display: nth($flex, 1); 
+        justify-content: nth($flex, 4);
+    }
+
+    height: auto; 
+    background-color: map-get($block-text, fondo);
+    color: map-get($block-text, letra); 
+    margin: map-get($block-text, margen);
+    padding: map-get($block-text, pad); 
+
+
+}

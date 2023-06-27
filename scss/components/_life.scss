@@ -1,0 +1,67 @@
+@import '../abstract/variables'; 
+@import '../abstract/listas'; 
+@import '../abstract/mapas'; 
+
+.aside-life {
+    color: nth($colores, 5);
+    background-color: nth($colores, 3);
+    opacity: 80%;
+    width: fit-content; 
+    height: auto; 
+    padding: nth($padding, 1); 
+    border-radius: 20px;
+    margin: nth($margin, 5); 
+    @media (max-width:900px){
+        font-size: nth($fonts-size, 10);
+        padding: nth($padding, 2)
+
+    }
+    ul{
+        font-family: $pt-mono;
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: nth($colores, 5)
+        }
+    }
+}
+
+.life {
+    height: auto; 
+    background-color: map-get($block-text, fondo);
+    color: map-get($block-text, letra); 
+    margin: map-get($block-text, margen);
+
+    .div-imglife{
+        display: nth($flex, 1); 
+        justify-content: nth($flex, 2);
+        margin: nth($margin, 6); 
+    }
+    
+    h2 {
+        font-family: $gochi;
+        font-size: nth($fonts-size, 3);
+        font-weight: bold;
+        @media (max-width:900px) {
+            font-size: nth($fonts-size, 5);
+        }
+
+    }
+    h3 {
+        font-family: $pt-mono;
+        font-size: nth($fonts-size, 9);
+        font-weight: bold;
+        @media (max-width:900px) {
+            font-size: nth($fonts-size, 5);
+        }
+    }
+    p{
+        font-family: $pt-mono;
+        font-size: nth($fonts-size, 6);
+        @media (max-width: 900px){
+            font-size: nth($fonts-size, 8);
+            
+        }
+    }
+}

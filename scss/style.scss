@@ -1,0 +1,30 @@
+@import './abstract/variables';
+@import './abstract/listas'; 
+@import './abstract/mapas'; 
+
+/*componentes*/
+@import './components/nav'; 
+@import './components/footer'; 
+@import './components/indexphotos'; 
+@import './components/life'; 
+@import './components/letters'; 
+
+body {
+    height: 100%; 
+    background-color: nth($colores , 1 );
+}
+
+#h1_index {
+    font-family: $gochi;
+    color: nth($colores , 4); 
+    font-size: nth($fonts-size , 1 );
+    
+}
+
+#h1_pages {
+    font-family: $gochi;
+    color: nth($colores, 4); 
+    font-size: nth($fonts-size , 2 );
+    margin: nth($margin, 3); 
+}
+

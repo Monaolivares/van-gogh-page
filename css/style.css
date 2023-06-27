@@ -1,383 +1,282 @@
-               
- /*Header*/
-
- /* The navigation menu */
- .barra-nav {
-  background-color: rgb(13,26,59); 
+/*variables*/
+/*fonts y font-sizes*/
+/*animaciones*/
+/*margin y padding*/
+/*aside*/
+/* 6 */
+/*componentes*/
+/*variables*/
+/*fonts y font-sizes*/
+/*animaciones*/
+/*margin y padding*/
+/*aside*/
+/* 6 */
+.barra-nav {
+  background-color: rgb(13, 26, 59);
 }
-.nav-logo:hover {
-  background-color: rgb(254, 191, 1); 
-  transform: scaleX(1.3) scaleY(1.3); 
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px 10px rgb(254, 191, 1);
-}
-.dropdown-stuff {
-  background-color: rgb(13,26,59);
-}
-.menu-list {
-  color: rgb(254, 191, 1); 
-}
-.menu-link{
-   color:rgb(254, 191, 1) !important; 
-   font-family: 'Homemade Apple', cursive;
-}
-.menu-item:hover {
-color: rgb(13,26,59); 
-}
-
-.menu-link:hover {
-  color:rgb(13,26,59)!important; 
-}
-.span-menu:hover {
-  
+.barra-nav .nav-logo:hover {
   background-color: rgb(254, 191, 1);
   border-radius: 50%;
-  box-shadow: 0px 0px 10px 20px rgb(254, 191, 1); 
+  box-shadow: 0px 0px 10px 20px rgb(254, 191, 1);
 }
-.menu-item ul{
-  list-style: none;
+.barra-nav .dropdown-stuff {
+  background-color: rgb(13, 26, 59);
 }
-.menu-item ul a{
+.barra-nav .dropdown-stuff:hover {
+  background-color: rgb(13, 26, 59);
+}
+.barra-nav .dropdown-stuff .dp-item:hover {
+  background-color: rgb(13, 26, 59);
+}
+.barra-nav .menu-link {
+  font-family: "Gochi Hand", cursive;
+  font-size: 20px;
+  color: rgb(254, 191, 1) !important; /*no dejaba cambiarlo por bs*/
   text-decoration: none;
 }
-.menu-png {
-  height: 1.5em;
-  width: 1.5em; 
+.barra-nav .menu-link:hover {
+  color: rgb(13, 26, 59) !important;
 }
-.dropdown-item:hover {
-background-color: rgb(13,26,59);
-color: rgb(254, 191, 1); 
-}
-.btn-collapsed {
-  background-color:  rgb(254, 191, 1); 
-  line-height: 2;
-}
-  
-  /*BODY GRAL */
-body {
-    
-    background-color:  rgb(249, 202, 61); 
-    height: 100vh;
-    margin: 0; 
-    
+.barra-nav .menu-link .span-menu:hover {
+  background-color: rgb(254, 191, 1);
+  box-shadow: 0px 0px 10px 20px rgb(254, 191, 1);
+  border-radius: 50%;
 }
 
-#h1_index {
-    text-align: left;
-    margin: 50px 0 10px 20px; 
-    padding: 10px 15px 10px 20px; 
-    border-left: solid 10px black; 
-    font-family: 'Beth Ellen', cursive;
-    font-size: 40px; 
-    width: 350px; 
-}
-.h1-row-index {
-  width: 350px; 
-}
-#h1_pages {
-    font-family: 'Beth Ellen', cursive;
-    text-align: left;
-    border-left: solid 8px rgb(24, 22, 22);
-    padding: 10px; 
-    margin: 20px; 
-    width: 300px; 
-}
-
-h2 {
-    font-family: 'PT Mono', monospace;
-    font-weight: bold;
-}
-
-h3 {
-    font-family: 'PT Mono', monospace;
-
-}
-p {
-    font-family: 'PT Mono', monospace;
-}
-ul {
-    font-family: 'PT Mono', monospace;
-}
- /*FOOTER*/
-
+/*variables*/
+/*fonts y font-sizes*/
+/*animaciones*/
+/*margin y padding*/
+/*aside*/
+/* 6 */
 .contenedor-footer {
-  background-color: rgb(13,26,59);
-  color:rgb(254, 191, 1); 
-  padding: 25px; 
-  display: block; 
-  margin: 15px 0 0 0; 
+  background-color: rgb(13, 26, 59);
+  margin: 70px 0 0 0;
 }
-
-.divlogofooter{
-  display: flex; 
-  justify-content: space-evenly;
-  align-items: center;
-  
-}
-.divlinksfooter {
-  display:flex; 
+.contenedor-footer .divlogofooter {
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px; 
 }
-.rrsslist {
-  display: flex; 
-  justify-content: space-evenly;
-  align-items: center; 
+.contenedor-footer .divlogofooter .logo-footer:hover {
+  background-color: rgb(254, 191, 1);
+  box-shadow: 0px 0px 10px 20px rgb(254, 191, 1);
+  border-radius: 50%;
+  transform: scaleX(1.5) scaleY(1.5);
 }
-.links-footer {
+.contenedor-footer .divlinksfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-footer .divlinksfooter .links-footer {
+  color: rgb(254, 191, 1);
+}
+.contenedor-footer .divlinksfooter .links-footer li {
   list-style: none;
-  
 }
-.links-footer a {
+.contenedor-footer .divlinksfooter .links-footer a {
   text-decoration: none;
-  color:rgb(254, 191, 1);
+  color: rgb(254, 191, 1);
 }
-.rrsslist li{
-  display: inline; 
+.contenedor-footer .rrsslist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-footer .rrsslist .rrss-logo:hover {
+  background-color: rgb(254, 191, 1);
+  box-shadow: 0px 0px 10px 20px rgb(254, 191, 1);
+  border-radius: 50%;
+  transform: scaleX(1.2) scaleY(1.2);
+}
+.contenedor-footer .rrsslist li {
+  display: inline;
+  text-decoration: none;
 }
 
-.logo-footer:hover {
-  background-color: rgb(254, 191, 1); 
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px 10px rgb(254, 191, 1);
-  transform: scaleX(1.5) scaleY(1.5); 
+/*variables*/
+/*fonts y font-sizes*/
+/*animaciones*/
+/*margin y padding*/
+/*aside*/
+/* 6 */
+.container-p-index {
+  margin: 70px 0 70px 0;
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
 }
-.rrss-logo:hover {
-  background-color: rgb(254, 191, 1); 
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px 10px rgb(254, 191, 1);
-}
-
-@media (max-width: 1010px) {
-  rrss-logo{ 
-    transform: scaleX(0,5) scaleY(0,5); 
+@media (max-width: 900px) {
+  .container-p-index {
+    margin: 30px 0 30px 0;
   }
 }
-/*INDEX*/
-.container-p-index{
-  margin: 0 0 50px 0; 
+
+.photo-menu-container {
+  margin: 70px 0 70px 0;
 }
-.photo-menu{
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  height: 500px; 
+@media (max-width: 900px) {
+  .photo-menu-container {
+    margin: 30px 0 30px 0;
+  }
 }
-.p-photomenu {
-text-align: center; 
-text-decoration: none; 
+.photo-menu-container .photo-menu {
+  font-family: "PT Mono", monospace;
 }
-.photo-menu:hover {
-  transform: scaleX(1.1) scaleY(1.1); 
-}
-.menu-link img {
-  display:block; 
-  justify-content: center;
-  align-items: center;
+.photo-menu-container .photo-menu:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+  font-weight: bolder;
+  font-family: "Gochi Hand", cursive;
+  font-size: 25px;
 }
 
 .photo-link {
   text-decoration: none;
-  color: rgb(13,26,59); 
-  font-size: 20px;
-  font-weight: bold;
+  color: rgb(33, 37, 41);
 }
-/* LIFE */
+
+/*variables*/
+/*fonts y font-sizes*/
+/*animaciones*/
+/*margin y padding*/
+/*aside*/
+/* 6 */
 .aside-life {
-    color: beige; 
-    background-color: rgb(75, 100, 137); 
-    width: fit-content;
-    height: auto; 
-    padding: 8px 16px 8px 8px; 
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgb(28, 26, 26);
-    font-family: 'PT Mono', monospace; 
-    margin: 50px; 
-
+  color: rgb(228, 228, 175);
+  background-color: rgb(13, 26, 59);
+  opacity: 80%;
+  width: fit-content;
+  height: auto;
+  padding: 8px 16px 8px 8px;
+  border-radius: 20px;
+  margin: 50px;
 }
-
 @media (max-width: 900px) {
   .aside-life {
-    font-size: 11px; 
-    padding: 3px; 
-
+    font-size: 11px;
+    padding: 3px;
   }
-  .life h2 {
-    font-size: 18px; 
-    font-weight: bold;
-  }
-  .life h3 {
-    font-size: 16px; 
-    font-weight: bold; 
-  }
-  .life p{
-    font-size: 13px; 
-  }
-  
+}
+.aside-life ul {
+  font-family: "PT Mono", monospace;
+  list-style: none;
+}
+.aside-life ul a {
+  text-decoration: none;
+  color: rgb(228, 228, 175);
 }
 
-
-.aside-life ul{
-    list-style: none;
-
-}
-
-.aside-life a {
-    text-decoration: none; 
-    color: beige;  
-   
-}
-
-.aside-life a:hover {
-    color: rgb(254,206,1); 
-    background-color:rgb(63, 101, 158); 
-}
 .life {
-    height: 500px;
-    overflow-y: scroll;
-    background-color: rgb(12, 76, 172);
-    color: beige; 
-    opacity: 0.80; 
-    margin: 50px; 
-    padding: 25px 10px 10px 10px;
+  height: auto;
+  background-color: rgba(13, 26, 59, 0.9);
+  color: rgb(254, 191, 1);
+  margin: 50px;
 }
-
-/*LETTERS TO THEO*/
-
-.letters {
-    height: 500px;
-    overflow-y: scroll;
-    background-color: rgb(12, 76, 172);
-    color: beige; 
-    opacity: 0.80; 
-    margin: 50px; 
-    padding: 25px 10px 10px 10px;
+.life .div-imglife {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
 }
-@media (max-width: 900px){
- 
-  .letters h2 {
-    font-size: 18px; 
-    font-weight: bold;
-  }
-  .letters h3 {
-    font-size: 16px; 
-    font-weight: bold; 
-  }
-  .letters p{
-    font-size: 13px; 
-}
-.letters-photo{
-  transform: scaleX(0.7) scaleY(0.7); 
-}
-}
-
-/*LEGACY*/
-
-#quote {
-    font-family: 'PT Mono', monospace; 
-    width: 35%; 
-    height: auto; 
-    font-size: 18px; 
-    font-weight: bold; 
-    text-align: right;
-    margin: 20px 5px 10px 10px; 
-    display: flex;
-    flex-direction: row-reverse; 
-    justify-content: flex-end; 
-    
-}
-.p-quote {
-  align-self: flex-end;
-}
-
-@media (max-width: 900px){
-  #quote{ 
-    font-size: 15px; 
-    font-weight: bold;
-    width: 300px; 
-
-  }
- 
-  .legacy h2 {
-    font-size: 18px; 
-    font-weight: bold;
-  }
-  .legacy h3 {
-    font-size: 16px; 
-    font-weight: bold; 
-  }
-  .legacy p{
-    font-size: 13px; 
-}
-.legacy ul {
-  font-size: 13px; 
-}
-.p-legacy {
-  font-size: 14px; 
-}
-}
-
-.legacy {
-    height: 500px; 
-    overflow-y: scroll; 
-    background-color:rgb(12, 76, 172);
-    opacity: 0.80; 
-    color: beige; 
-    margin: 30px 0 30px 0; 
-}
-.legacy ul {
-  list-style: square;
-}
-    
-
-  /*WORK*/
-.work-menu-link {
-  text-decoration: none; 
+.life h2 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 35px;
   font-weight: bold;
-  font-size: 15px;
-  color: rgb(13,26,59); 
 }
-.container-photos-work {
-  margin: 30px 5px 30px 30px; 
-  width: 100%; 
-  
+@media (max-width: 900px) {
+  .life h2 {
+    font-size: 20px;
+  }
+}
+.life h3 {
+  font-family: "PT Mono", monospace;
+  font-size: 25px;
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  .life h3 {
+    font-size: 20px;
+  }
+}
+.life p {
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .life p {
+    font-size: 13px;
+  }
+}
 
+/*variables*/
+/*fonts y font-sizes*/
+/*animaciones*/
+/*margin y padding*/
+/*aside*/
+/* 6 */
+.letters {
+  height: auto;
+  background-color: rgba(13, 26, 59, 0.9);
+  color: rgb(254, 191, 1);
+  margin: 50px;
+  padding: 15px;
 }
-.work-menu-photo {
-  display:flex;
+.letters p {
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .letters p {
+    font-size: 13px;
+  }
+}
+.letters h2 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 35px;
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  .letters h2 {
+    font-size: 20px;
+  }
+}
+.letters h3 {
+  font-family: "PT Mono", monospace;
+  font-size: 25px;
+  font-weight: bold;
+}
+@media (max-width: 900px) {
+  .letters h3 {
+    font-size: 20px;
+  }
+}
+.letters .div-imgletter {
+  display: flex;
   justify-content: center;
 }
-.row-work-photos {
-  margin: none; 
-  padding: none;  
-  
-}
- /*PAINTINGS*/
-
- .carousel-icon {
-  background-color: rgba(45, 44, 44, 50);
+.letters .div-imgletter .letters-photo {
   border-radius: 50%;
- }
- .carousel-text{
-  background-color: rgba(58, 63, 70, 0.3);
- }
-.div-carousel-container {
-  margin: 20px; 
+}
+.letters .div-imgletters {
+  display: flex;
+  justify-content: space-between;
 }
 
-.container-auvers {
-  margin: 30px 10px 30px 10px; 
+body {
+  height: 100%;
+  background-color: rgb(249, 202, 61);
 }
- @media (max-width: 900px) {
-  .p-carousel{
-    display: none; 
-   }
-  
-   .carousel-caption h5 {
-    font-size: 15px; 
-   }
-  }
 
+#h1_index {
+  font-family: "Gochi Hand", cursive;
+  color: rgb(33, 37, 41);
+  font-size: 65px;
+}
 
- 
+#h1_pages {
+  font-family: "Gochi Hand", cursive;
+  color: rgb(33, 37, 41);
+  font-size: 53px;
+  margin: 20px 0 15px 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

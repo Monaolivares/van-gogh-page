@@ -2,22 +2,23 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/*aside*/
-/* 6 */
+/* 7 carousel bcg*/
+/*7*/
 /*componentes*/
 /*variables*/
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/*aside*/
-/* 6 */
+/* 7 carousel bcg*/
+/*7*/
 .barra-nav {
   background-color: rgb(13, 26, 59);
 }
 .barra-nav .nav-logo:hover {
-  background-color: rgb(254, 191, 1);
+  background-color: rgb(237, 198, 81);
   border-radius: 50%;
-  box-shadow: 0px 0px 10px 20px rgb(254, 191, 1);
+  box-shadow: 0px 0px 10px 20px rgb(237, 198, 81);
+  transition: all 1.1s linear;
 }
 .barra-nav .dropdown-stuff {
   background-color: rgb(13, 26, 59);
@@ -38,17 +39,30 @@
   color: rgb(13, 26, 59) !important;
 }
 .barra-nav .menu-link .span-menu:hover {
-  background-color: rgb(254, 191, 1);
-  box-shadow: 0px 0px 10px 20px rgb(254, 191, 1);
+  background-color: rgb(237, 198, 81);
+  box-shadow: 0px 0px 10px 20px rgb(237, 198, 81);
   border-radius: 50%;
+  transition: all 0.9s linear;
+}
+
+.btn-collapsed {
+  background-image: url(../../img/favicon.png);
+  line-height: 2;
+}
+.btn-collapsed:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+  background-color: rgb(237, 198, 81);
+  box-shadow: 0px 0px 10px 20px rgb(237, 198, 81);
+  border-radius: 50%;
+  transition: all 1.1s linear;
 }
 
 /*variables*/
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/*aside*/
-/* 6 */
+/* 7 carousel bcg*/
+/*7*/
 .contenedor-footer {
   background-color: rgb(13, 26, 59);
   margin: 70px 0 0 0;
@@ -59,15 +73,28 @@
   align-items: center;
 }
 .contenedor-footer .divlogofooter .logo-footer:hover {
-  background-color: rgb(254, 191, 1);
-  box-shadow: 0px 0px 10px 20px rgb(254, 191, 1);
+  background-color: rgb(237, 198, 81);
+  box-shadow: 0px 0px 10px 20px rgb(237, 198, 81);
   border-radius: 50%;
   transform: scaleX(1.5) scaleY(1.5);
+  transition: all 1.1s linear;
+}
+@media (max-width: 950px) {
+  .contenedor-footer .divlogofooter .logo-footer:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+  }
 }
 .contenedor-footer .divlinksfooter {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+}
+@media (max-width: 900px) {
+  .contenedor-footer .divlinksfooter {
+    font-size: 18px;
+  }
 }
 .contenedor-footer .divlinksfooter .links-footer {
   color: rgb(254, 191, 1);
@@ -85,10 +112,11 @@
   align-items: center;
 }
 .contenedor-footer .rrsslist .rrss-logo:hover {
-  background-color: rgb(254, 191, 1);
-  box-shadow: 0px 0px 10px 20px rgb(254, 191, 1);
+  background-color: rgb(237, 198, 81);
+  box-shadow: 0px 0px 10px 20px rgb(237, 198, 81);
   border-radius: 50%;
   transform: scaleX(1.2) scaleY(1.2);
+  transition: all 1.1s linear;
 }
 .contenedor-footer .rrsslist li {
   display: inline;
@@ -99,8 +127,8 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/*aside*/
-/* 6 */
+/* 7 carousel bcg*/
+/*7*/
 .container-p-index {
   margin: 70px 0 70px 0;
   font-family: "PT Mono", monospace;
@@ -139,8 +167,8 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/*aside*/
-/* 6 */
+/* 7 carousel bcg*/
+/*7*/
 .aside-life {
   color: rgb(228, 228, 175);
   background-color: rgb(13, 26, 59);
@@ -171,10 +199,16 @@
   background-color: rgba(13, 26, 59, 0.9);
   color: rgb(254, 191, 1);
   margin: 50px;
+  padding: 15px;
 }
 .life .div-imglife {
   display: flex;
   justify-content: center;
+  margin: 10px 0 10px 0;
+}
+.life .div-imglifes {
+  display: flex;
+  justify-content: space-around;
   margin: 10px 0 10px 0;
 }
 .life h2 {
@@ -211,8 +245,8 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/*aside*/
-/* 6 */
+/* 7 carousel bcg*/
+/*7*/
 .letters {
   height: auto;
   background-color: rgba(13, 26, 59, 0.9);
@@ -258,7 +292,169 @@
 }
 .letters .div-imgletters {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+@media (max-width: 950px) {
+  .letters .div-imgletters {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+  .letters .div-imgletters .letter2 {
+    margin: 10px 0 10px 0;
+  }
+}
+
+/*variables*/
+/*fonts y font-sizes*/
+/*animaciones*/
+/*margin y padding*/
+/* 7 carousel bcg*/
+/*7*/
+.p-legacy {
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .p-legacy {
+    font-size: 13px;
+  }
+}
+
+#quote .p-quote {
+  font-family: "PT Mono", monospace;
+  font-size: 20px;
+}
+
+.legacy {
+  background-color: rgba(13, 26, 59, 0.9);
+  color: rgb(254, 191, 1);
+  margin: 50px;
+  padding: 15px;
+}
+.legacy p {
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .legacy p {
+    font-size: 13px;
+  }
+}
+.legacy a {
+  color: rgb(254, 191, 1);
+}
+.legacy h2 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 35px;
+}
+.legacy h3 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 28px;
+}
+.legacy ul {
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+}
+.legacy .iframe-legacy {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+}
+.legacy .divimglegacy {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+}
+
+h2 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 40px;
+}
+
+/*variables*/
+/*fonts y font-sizes*/
+/*animaciones*/
+/*margin y padding*/
+/* 7 carousel bcg*/
+/*7*/
+.p-work {
+  font-family: "PT Mono", monospace;
+  color: rgb(33, 37, 41);
+}
+
+.container-photos-work {
+  display: flex;
+  justify-content: center;
+}
+.container-photos-work a {
+  color: rgb(33, 37, 41);
+  text-decoration: none;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  justify-self: center;
+}
+.container-photos-work .div-p-work {
+  display: flex;
+  justify-content: center;
+}
+
+/*variables*/
+/*fonts y font-sizes*/
+/*animaciones*/
+/*margin y padding*/
+/* 7 carousel bcg*/
+/*7*/
+.p-paintings {
+  color: rgb(33, 37, 41);
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .p-paintings {
+    font-size: 15px;
+  }
+}
+
+.ul-paintings {
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+  list-style: square;
+}
+@media (max-width: 900px) {
+  .ul-paintings {
+    font-size: 15px;
+  }
+}
+
+.h3-paintings {
+  font-family: "Gochi Hand", cursive;
+  font-size: 28px;
+}
+
+.carousel-icon {
+  background-color: rgb(75, 100, 137);
+  border-radius: 50%;
+}
+
+.carousel-text {
+  background-color: rgba(105, 106, 108, 0.3);
+}
+.carousel-text h5 {
+  font-family: "Caveat", cursive;
+  font-size: 28px;
+}
+@media (max-width: 900px) {
+  .carousel-text h5 {
+    font-size: 25px;
+  }
+  .carousel-text .p-carousel {
+    display: none;
+  }
+}
+
+.div-carousel-container {
+  margin: 20px;
 }
 
 body {

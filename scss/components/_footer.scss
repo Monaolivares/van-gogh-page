@@ -17,12 +17,22 @@
             box-shadow: map-get($glow-hover , bs-gh );
             border-radius: map-get($glow-hover , br-gh );
             transform: map-get($glow-hover , trans2 ); 
+            transition: $transition1; 
+            @media (max-width:950px){
+                transform: map-get($glow-hover, trans3 ); 
+            }
 
     } } 
     .divlinksfooter{
         display: nth($flex , 1 ); 
         justify-content: nth($flex , 2 );
         align-items: nth($flex , 2 );
+        font-family: $caveat;
+        font-size: nth($fonts-size, 9);
+
+        @media (max-width:900px){
+            font-size: nth($fonts-size, 6);
+        }
         .links-footer{
             color: nth($colores , 2 ); 
             li{
@@ -44,6 +54,7 @@
             box-shadow: map-get($glow-hover , bs-gh );
             border-radius: map-get($glow-hover , br-gh );
             transform: map-get($glow-hover , trans1 );
+            transition: $transition1; 
 
         }
         li{

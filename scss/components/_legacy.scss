@@ -1,0 +1,69 @@
+@import '../abstract/variables'; 
+@import '../abstract/listas'; 
+@import '../abstract/mapas'; 
+
+
+.p-legacy {
+    font-family: $pt-mono;
+    font-size: nth($fonts-size, 6);
+    @media (max-width:900px){
+        font-size: nth($fonts-size, 8)
+        
+    }
+}
+
+#quote{
+    .p-quote{
+        font-family: $pt-mono; 
+        font-size: nth($fonts-size, 5);
+    }
+}
+.legacy {
+background-color: map-get($block-text, fondo);
+color: map-get($block-text, letra); 
+margin: map-get($block-text, margen); 
+padding: map-get($block-text, pad); 
+
+    p{
+        font-family: $pt-mono;
+        font-size: nth($fonts-size, 6);
+        @media (max-width:900px) {
+            font-size: nth($fonts-size, 8)
+        }
+
+    }
+    a {
+        color: map-get($block-text, letra); 
+    }
+    h2{
+        font-family: $gochi; 
+        font-size: nth($fonts-size, 3)
+    }
+    h3{
+        font-family: $gochi;
+        font-size: nth($fonts-size , 4);
+    }
+    ul{
+        font-family: $pt-mono;
+        font-size: nth($fonts-size, 6 );
+    }
+
+    .iframe-legacy {
+        display: nth($flex, 1); 
+        justify-content: nth($flex, 2);
+        padding: 20px 0 20px 0; 
+
+    }
+
+    .divimglegacy {
+        display: nth($flex, 1 );
+        justify-content: nth($flex, 2);
+        padding: 20px 0 20px 0; 
+    }
+
+}
+
+h2{
+    font-family: $gochi;
+    font-size: nth($fonts-size, 12);
+}

@@ -8,15 +8,17 @@ space-between;
 $fonts-size:
  65px, /* 1- h1 index*/
  53px, /* 2- h1 pages*/
- 35px, 
+ 35px, /* h2 en block*/
  28px, 
- 20px, 
- 18px, /* 6- p*/
+ 20px, /* 5 */
+ 18px, /* 6- p en block text*/
  15px, 
- 13px,  
- 25px, /* 9*/ 
+ 13px,  /* 8 para p en mobil*/
+ 25px, /* 9 h3 en block*/ 
  11px,  /* 10*/
- 16px; 
+ 16px,
+ 40px; 
+ 
 
 $colores:
 rgb(249,202,61), /*amarillo fondo*/
@@ -24,7 +26,8 @@ rgb(254, 191, 1),
 rgb(13,26,59), /*azul fondo*/
 rgb(33,37,41), /*azul letras*/
 rgb(228, 228, 175), 
-rgb(75, 100, 137); /*aside*/
+rgb(75, 100, 137), /*aside*/
+rgba(105, 106, 108, 0.3); /* 7 carousel bcg*/
 
 $margin:
 70px 0 70px 0, /* 1 margin menu photos*/
@@ -32,7 +35,8 @@ $margin:
 20px 0 15px 40px, /* 3 marginh1*/
 70px 0 0 0,  /* 4 margin footer*/
 50px,  
-10px 0 10px 0; /* 6 */
+10px 0 10px 0,  /* 6 */
+20px; /*7*/
 
 
 $padding:

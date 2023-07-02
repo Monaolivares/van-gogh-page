@@ -11,6 +11,7 @@
         background-color: map-get($glow-hover, bgc-gh );
         border-radius: map-get($glow-hover , br-gh ); 
         box-shadow: map-get($glow-hover , bs-gh );
+        transition: $transition1; 
        
     
     }
@@ -39,12 +40,25 @@
             background-color: map-get($glow-hover, bgc-gh);
             box-shadow: map-get($glow-hover, bs-gh);
             border-radius: map-get($glow-hover, br-gh );
+            transition: $transition2;
         }
 
         
     }
 }
+.btn-collapsed {
+    
+    background-image: url(../../img/favicon.png);
+    line-height: 2;
 
+    &:hover{
+        transform: map-get($glow-hover, trans3);
+        background-color: map-get($glow-hover, bgc-gh);
+        box-shadow: map-get($glow-hover, bs-gh);
+        border-radius: map-get($glow-hover, br-gh);
+        transition: $transition1;
+    }
+}
 
 
 

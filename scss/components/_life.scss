@@ -32,10 +32,17 @@
     background-color: map-get($block-text, fondo);
     color: map-get($block-text, letra); 
     margin: map-get($block-text, margen);
+    padding: map-get($block-text, pad);
 
     .div-imglife{
         display: nth($flex, 1); 
         justify-content: nth($flex, 2);
+        margin: nth($margin, 6); 
+    }
+
+    .div-imglifes {
+        display: nth($flex, 1 ); 
+        justify-content: nth($flex, 3);
         margin: nth($margin, 6); 
     }
     

@@ -1,0 +1,27 @@
+@import '../abstract/variables';
+@import '../abstract/listas';
+@import '../abstract/mapas'; 
+
+.p-work {
+    font-family: $pt-mono; 
+    color: nth($colores, 4); 
+
+}
+
+.container-photos-work {
+    display: nth($flex, 1); 
+    justify-content: nth($flex, 2);
+    a{
+        color: nth($colores, 4);
+        text-decoration: none;
+        font-family: $caveat;
+        font-size: nth($fonts-size, 9);
+        justify-self: center;
+    }
+    
+        .div-p-work{
+            display: nth($flex, 1); 
+            justify-content: nth($flex, 2);
+        }
+   
+}

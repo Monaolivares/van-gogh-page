@@ -1,0 +1,54 @@
+@import '../abstract/variables';
+@import '../abstract/listas';
+@import '../abstract/mapas'; 
+
+.p-paintings{
+    color: nth($colores, 4); 
+    font-family: $pt-mono;
+    font-size: nth($fonts-size, 6);
+
+    @media (max-width:900px) {
+        font-size: nth($fonts-size, 7); 
+    }
+
+
+}
+.ul-paintings {
+    font-family: $pt-mono;
+    font-size: nth($fonts-size, 6);
+    list-style: square; 
+    @media (max-width:900px) {
+        font-size: nth($fonts-size, 7 )
+    }
+}
+
+.h3-paintings {
+    font-family: $gochi;
+    font-size: nth($fonts-size, 4); 
+}
+
+.carousel-icon {
+    background-color: nth($colores, 6 );
+    border-radius: 50%;
+}
+.carousel-text{
+    background-color: nth($colores, 7 );
+    h5{
+        font-family: $caveat;
+        font-size: nth($fonts-size, 4);
+    }
+
+    @media (max-width:900px) {
+        h5 {
+            font-size: nth($fonts-size, 9);
+        }
+        .p-carousel{
+            display: none; 
+        }
+    }
+}
+
+.div-carousel-container {
+    margin: nth($margin, 7); 
+}
+

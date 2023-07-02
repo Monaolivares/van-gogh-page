@@ -39,7 +39,16 @@
     }
     .div-imgletters {
         display: nth($flex, 1); 
-        justify-content: nth($flex, 4);
+        justify-content: nth($flex, 3);
+
+        @media (max-width:950px){
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around; 
+        .letter2{
+            margin: nth($margin, 6)
+        }
+    }
     }
 
     height: auto; 

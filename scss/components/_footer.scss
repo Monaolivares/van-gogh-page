@@ -16,7 +16,7 @@
             background-color: map-get($glow-hover , bgc-gh );
             box-shadow: map-get($glow-hover , bs-gh );
             border-radius: map-get($glow-hover , br-gh );
-            transform: map-get($glow-hover , trans2 ); 
+            transform: map-get($glow-hover , trans2 );
             transition: $transition1; 
             @media (max-width:950px){
                 transform: map-get($glow-hover, trans3 ); 

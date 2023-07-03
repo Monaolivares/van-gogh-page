@@ -16,6 +16,10 @@
     .p-quote{
         font-family: $pt-mono; 
         font-size: nth($fonts-size, 5);
+
+        @media (max-width:900px) {
+            font-size: nth($fonts-size, 7)
+        }
     }
 }
 .legacy {
@@ -46,6 +50,9 @@ padding: map-get($block-text, pad);
     ul{
         font-family: $pt-mono;
         font-size: nth($fonts-size, 6 );
+        @media (max-width:900px) {
+            font-size: nth($fonts-size, 8)
+        }
     }
 
     .iframe-legacy {

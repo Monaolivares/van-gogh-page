@@ -10,6 +10,10 @@
     <!--bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/favicon_2png.png">
+    <!--css animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!--css-->
     <link rel="stylesheet" href="../css/style.css">
     <!-- fonts-->
@@ -81,7 +85,7 @@
           Life</h1>
 
       </div>
-      <!--firsdt container -->
+      <!--first container -->
         <div class="container-fluid">
           <div class="row justify-content-center">
             
@@ -109,7 +113,7 @@
             </div>    <!--cierre div carrusel-->
             
             <!--aside -->
-            <aside class="aside-life col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+            <aside class="aside-life col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 col-xxl-5" data-aos="fade-right">
               <p>
                   <ul>
                       <li>Full name: Vincent Willem van Gogh </li>
@@ -153,7 +157,7 @@
 
         <div class="container-fluid">
           <div class="row justify-content-center">
-            <div class="life col-11">
+            <div class="life col-11" data-aos="fade-right">
               <h2>Early life</h2>
   
           <p>Born in a mostly Catholic province of North Brabant in Netherlands, son of Theodorus van Gogh (1822-1888) and Anna Cornelia Carbentus (1819-1907), on March 30 of 1853 under the name of Vincent Willem van Gogh. <br>
@@ -164,7 +168,7 @@
           
           </div>
   
-          <div class="life col-11">
+          <div class="life col-11" data-aos="fade-right">
               <h2>Adulting</h2>
           <p>In 1869 his uncle "Cent" obtained a job for Vincent as an art dealer in The Hague, completing his training in 1873 at the Goupil & Cie and was transferred to the London branch. <br>
           This period of his life is remember as the happiest years of Vincent's liefe; he was being succesful at work and made good money. Anna, his sister was living with him, only addind more joy to his life. He also enoyed to visit museums and admire all the art he could find. Specially admired Millier and Jules Breton, part of the realism movement. These painters showed the peasant class and their lifestyle with no filter. Something in this paintings really moved the core of Vincent, and promised that some day he would do somthing to help this people. <br>
@@ -173,7 +177,7 @@
       In an effort for helping him, his brother and father arranged his tranfer to the Paris branch. It did not work, he only become more reclusive, an turn more and more into religion. Finallky, in 1876, he was fired from the auction house. After that took unpaid job as a teacher, and later at a bookshop near his parent house. Finally realizing that he wanted to become a priest. </p>
   
           </div>
-          <div class="life col-11">
+          <div class="life col-11" data-aos="fade-right">
               <h2>Religious beliefs </h2>
           <p>Vincent came from a very religious family. But his "call" camer more late in life. He studied rigorously for ther exam no enter to the Teology School in Amsterdam. Despite being very strict with his studies, he refused to study latin, because he considered a death tongue and "useless". The faculty denied him entrance. <br>
               Tried to enter in the Evangelical Church of Belgium, who also denied him entrance because of his stubborness. It was that same obstination that made him volunteer as a missionare in a enpovered village on the south of Belgium. Ministers were sent there as a punishment. <br>
@@ -182,7 +186,7 @@
   
           </div>
   
-          <div class="life col-11">
+          <div class="life col-11" data-aos="fade-right">
               <h2>First steeps as an artist</h2>
   
           <p> Van Gogh was a deep depression for 4 years, and finally his father had enough and treatened him with send him to an asylum, Vincent mooved out of the house to a small village in Belgium. <br>\
@@ -199,19 +203,27 @@
           <p>Vincent mooved here in 1883, in here he developed his strong work ethic. Everyday he walked out and painted something. Some of the spot became a recurrent protagonist of his painting, like an old church that can be seen in many of the pieces during this period. Many thing that was a tribute to his father and the religion that a time ago was the focus of all this faith. <br>
           By 1885, his father died, and the frief overwhelmed him, he even change radically how he portraayed the same church after his father death. <br>
         Months later, Theo was succesful in secured a spot for Vincent in an art exhibition, the first chance for Vincent to show his art to the rest of the world. He sent Theo <i> The Potato Eaters</i>, it did not have the best reception even though Vincent said multiple times that it was his masterpiece. Even Theo lost a little of his faith on Vincent, he said that "the paintings were to dark and depressive to sell and shoul learn how to use more color". Vincent was hurt, but knew that his brother was right. He became obssesewd for three months about color theory, and for the first time the color of his paintigs evolve from muted color, so other so mnuch vibrant. </p>
-          <div class="div-imglife"> <img src="../img//paintings/nuenen/the_potato_eaters.jpeg" alt="the potato eaters." class="img-potato"></div>
+          <div class="container">
+            <div class="row col-9 justify-content-center life-photo-row">
+              <img src="../img//paintings/nuenen/the_potato_eaters.jpeg" alt="the potato eaters." class="img-potato">
+            </div>
+          </div>
   
           <h3>Paris 1886-1888</h3>
           <p>He became to excel when he moved back to Paris under Theo's petition. He stated getting confortable with the color blue and by the summer he had progress into red.By the end of the year is difficult to find so much similarities with works made a year before, he had made such an improvement, the addition ofd colour gave change his art forever. Not only the color was vibrant, the technique changed as well, with shades of pointillism and unique brushstrokes. You can tell the difference in these two paintings.  </p> 
               <div class="div-imglifes">
-                <img src="../img/paintings/paris/sp_1886.jpeg" alt="self portrait 1886" class="img-sp86">
-                <img src="../img/paintings/paris/sp_1887.jpeg" alt="self portrait 1887" class="img-sp87">
+                <div classs="sp">
+                  <img src="../img/paintings/paris/sp_1886.jpeg" alt="self portrait 1886" class="img-sp86">
+                </div>
+                <div class="sp">
+                  <img src="../img/paintings/paris/sp_1887.jpeg" alt="self portrait 1887" class="img-sp87">
+                </div>
               </div>
               <p>And started to catch the attention of other artists, like Herni de Toulouse-latrec, and Paul Signac, a pointillist that influence greatly to Vincent. </p>
   
           </div>
   
-          <div class="life col-11">
+          <div class="life col-11" data-aos="fade-right">
               <h2>Breakthrough</h2>
   
               <h3>Arles 1888-1889</h3>
@@ -251,7 +263,7 @@
           
           </div>
   
-          <div class="life col-11">
+          <div class="life col-11" data-aos="fade-right">
           <h2>Health and Mental Health</h2>
           <h3>Diagnose?</h3>
           <p>While today is impossible and irresponsablke give and accuirate diagnose of what was affecting Vincent during his life, we can speculate. At the day the doctors diagnosed him with epilepsy, but there is a chance that he had a bipolar disorder. Haviung maniac episodes and depression.</p>
@@ -275,7 +287,7 @@
             
           Shortly after Vincent's death, his beloved brother, Theo van Gogh, succumbed to illness and passed away. Theo had been a pillar of support for Vincent throughout his life, both emotionally and financially. Devastated by the loss of his brother, Theo's health deteriorated rapidly, exacerbated by the strain he had endured. Only six months after Vincent's death, Theo, too, departed from this world, leaving behind a legacy of unwavering dedication and support for his brother's artistic endeavors. Their tragic deaths marked the end of an era for the van Gogh family and added a layer of sorrow to the already complex and remarkable story of the Van Gogh brothers. </p>
             <div class="div-imglife">
-              <img src="../img/tomb.jpeg" alt="two  white small tombs, surrounded by green plants, one for Vincent van Goggh, and another for his brother Theo. Side by side.">
+              <img src="../img/tomb.jpeg" alt="two  white small tombs, surrounded by green plants, one for Vincent van Goggh, and another for his brother Theo. Side by side." class="img-tomb">
             </div>
       
           </div>
@@ -317,6 +329,12 @@
       </footer>
     <!-- script bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<!-- script animation-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     
 </body>
 </html>

@@ -38,12 +38,41 @@
         display: nth($flex, 1); 
         justify-content: nth($flex, 2);
         margin: nth($margin, 6); 
+}
+    .img-potato{
+        @media (max-width:1000px) {
+            max-width: 100%;
+            height: auto;
+            width: auto\9;
+        } 
+       
+    }
+    
+    .img-tomb {
+        @media (max-width:1000px) {
+            transform: map-get($glow-hover, trans4); 
+        } 
+        @media (max-width:800px) {
+            transform: map-get($glow-hover, trans5); 
+        }
     }
 
     .div-imglifes {
         display: nth($flex, 1 ); 
         justify-content: nth($flex, 3);
         margin: nth($margin, 6); 
+
+        @media (max-width:950px) {
+            flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around; 
+        .sp{
+            margin: nth($margin, 6)
+        }
+        }
+
+        
+        
     }
     
     h2 {

@@ -48,17 +48,12 @@
 }
 .btn-collapsed {
     
-    background-image: url(../../img/favicon.png);
+    background-color: nth($colores, 1 );
     line-height: 2;
+    border-radius: 50%;
 
-    &:hover{
-        transform: map-get($glow-hover, trans3);
-        background-color: map-get($glow-hover, bgc-gh);
-        box-shadow: map-get($glow-hover, bs-gh);
-        border-radius: map-get($glow-hover, br-gh);
-        transition: $transition1;
+  
     }
-}
 
 
 

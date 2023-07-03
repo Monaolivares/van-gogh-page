@@ -46,15 +46,9 @@
 }
 
 .btn-collapsed {
-  background-image: url(../../img/favicon.png);
+  background-color: rgb(249, 202, 61);
   line-height: 2;
-}
-.btn-collapsed:hover {
-  transform: scaleX(1.1) scaleY(1.1);
-  background-color: rgb(237, 198, 81);
-  box-shadow: 0px 0px 10px 20px rgb(237, 198, 81);
   border-radius: 50%;
-  transition: all 1.1s linear;
 }
 
 /*variables*/
@@ -153,6 +147,7 @@
 }
 .photo-menu-container .photo-menu:hover {
   transform: scaleX(1.1) scaleY(1.1);
+  transition: all 0.9s linear;
   font-weight: bolder;
   font-family: "Gochi Hand", cursive;
   font-size: 25px;
@@ -175,7 +170,7 @@
   opacity: 80%;
   width: fit-content;
   height: auto;
-  padding: 8px 16px 8px 8px;
+  padding: 8px 20px 8px 8px;
   border-radius: 20px;
   margin: 50px;
 }
@@ -206,10 +201,37 @@
   justify-content: center;
   margin: 10px 0 10px 0;
 }
+@media (max-width: 1000px) {
+  .life .img-potato {
+    max-width: 100%;
+    height: auto;
+    width: auto\9 ;
+  }
+}
+@media (max-width: 1000px) {
+  .life .img-tomb {
+    transform: scaleX(0.7) scaleY(0.7);
+  }
+}
+@media (max-width: 800px) {
+  .life .img-tomb {
+    transform: scaleX(0.5) scaleY(0.5);
+  }
+}
 .life .div-imglifes {
   display: flex;
   justify-content: space-around;
   margin: 10px 0 10px 0;
+}
+@media (max-width: 950px) {
+  .life .div-imglifes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+  .life .div-imglifes .sp {
+    margin: 10px 0 10px 0;
+  }
 }
 .life h2 {
   font-family: "Gochi Hand", cursive;
@@ -325,6 +347,11 @@
   font-family: "PT Mono", monospace;
   font-size: 20px;
 }
+@media (max-width: 900px) {
+  #quote .p-quote {
+    font-size: 15px;
+  }
+}
 
 .legacy {
   background-color: rgba(13, 26, 59, 0.9);
@@ -355,6 +382,11 @@
 .legacy ul {
   font-family: "PT Mono", monospace;
   font-size: 18px;
+}
+@media (max-width: 900px) {
+  .legacy ul {
+    font-size: 13px;
+  }
 }
 .legacy .iframe-legacy {
   display: flex;
@@ -458,10 +490,23 @@ h2 {
 }
 
 body {
-  height: 100%;
-  background-color: rgb(249, 202, 61);
+  background: linear-gradient(-45deg, rgb(253, 229, 54), rgb(221, 136, 28), rgb(133, 214, 226), rgb(92, 122, 199));
+  background-size: 3000% 3000%;
+  animation: gradient 13s ease infinite;
+  height: 100vh;
 }
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 #h1_index {
   font-family: "Gochi Hand", cursive;
   color: rgb(33, 37, 41);

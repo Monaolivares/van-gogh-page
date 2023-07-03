@@ -13,9 +13,25 @@
 @import './components/paintings'; 
 
 body {
-    height: 100%; 
-    background-color: nth($colores , 1 );
-}
+   
+        background: linear-gradient(-45deg, rgb(253,229,54), rgb(221,136,28), rgb(133,214,226), rgb(92, 122, 199));
+        background-size: 3000% 3000%;
+        animation: gradient 13s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
 
 #h1_index {
     font-family: $gochi;

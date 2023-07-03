@@ -4,7 +4,7 @@
 
 .letters {
     p {
-        font-family: $pt-mono;
+        font-family: $redhat;
         font-size: nth($fonts-size, 6);
         @media (max-width: 900px){
             font-size: nth($fonts-size, 8);
@@ -21,7 +21,7 @@
 
     }
     h3 {
-        font-family: $pt-mono;
+        font-family: $redhat;
         font-size: nth($fonts-size, 9);
         font-weight: bold;
         @media (max-width:900px) {

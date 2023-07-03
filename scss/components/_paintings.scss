@@ -4,7 +4,7 @@
 
 .p-paintings{
     color: nth($colores, 4); 
-    font-family: $pt-mono;
+    font-family: $redhat;
     font-size: nth($fonts-size, 6);
 
     @media (max-width:900px) {
@@ -14,7 +14,7 @@
 
 }
 .ul-paintings {
-    font-family: $pt-mono;
+    font-family: $redhat;
     font-size: nth($fonts-size, 6);
     list-style: square; 
     @media (max-width:900px) {

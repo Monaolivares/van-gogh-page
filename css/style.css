@@ -125,7 +125,7 @@
 /*7*/
 .container-p-index {
   margin: 70px 0 70px 0;
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
 }
 @media (max-width: 900px) {
@@ -143,7 +143,7 @@
   }
 }
 .photo-menu-container .photo-menu {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
 }
 .photo-menu-container .photo-menu:hover {
   transform: scaleX(1.1) scaleY(1.1);
@@ -181,7 +181,7 @@
   }
 }
 .aside-life ul {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   list-style: none;
 }
 .aside-life ul a {
@@ -244,7 +244,7 @@
   }
 }
 .life h3 {
-  font-family: "PT Mono", monospace;
+  font-family: "Gochi Hand", cursive;
   font-size: 25px;
   font-weight: bold;
 }
@@ -254,7 +254,7 @@
   }
 }
 .life p {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
 }
 @media (max-width: 900px) {
@@ -277,7 +277,7 @@
   padding: 15px;
 }
 .letters p {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
 }
 @media (max-width: 900px) {
@@ -296,7 +296,7 @@
   }
 }
 .letters h3 {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 25px;
   font-weight: bold;
 }
@@ -334,7 +334,7 @@
 /* 7 carousel bcg*/
 /*7*/
 .p-legacy {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
 }
 @media (max-width: 900px) {
@@ -344,7 +344,7 @@
 }
 
 #quote .p-quote {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 20px;
 }
 @media (max-width: 900px) {
@@ -360,7 +360,7 @@
   padding: 15px;
 }
 .legacy p {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
 }
 @media (max-width: 900px) {
@@ -380,7 +380,7 @@
   font-size: 28px;
 }
 .legacy ul {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
 }
 @media (max-width: 900px) {
@@ -411,7 +411,7 @@ h2 {
 /* 7 carousel bcg*/
 /*7*/
 .p-work {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   color: rgb(33, 37, 41);
 }
 
@@ -439,7 +439,7 @@ h2 {
 /*7*/
 .p-paintings {
   color: rgb(33, 37, 41);
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
 }
 @media (max-width: 900px) {
@@ -449,7 +449,7 @@ h2 {
 }
 
 .ul-paintings {
-  font-family: "PT Mono", monospace;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
   list-style: square;
 }
@@ -490,7 +490,7 @@ h2 {
 }
 
 body {
-  background: linear-gradient(-45deg, rgb(253, 229, 54), rgb(221, 136, 28), rgb(133, 214, 226), rgb(92, 122, 199));
+  background: linear-gradient(-45deg, rgb(233, 234, 172), rgb(241, 179, 6), rgb(221, 136, 28), rgb(240, 114, 30));
   background-size: 3000% 3000%;
   animation: gradient 13s ease infinite;
   height: 100vh;

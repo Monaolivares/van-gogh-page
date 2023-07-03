@@ -4,7 +4,7 @@
 
 
 .p-legacy {
-    font-family: $pt-mono;
+    font-family: $redhat;
     font-size: nth($fonts-size, 6);
     @media (max-width:900px){
         font-size: nth($fonts-size, 8)
@@ -14,7 +14,7 @@
 
 #quote{
     .p-quote{
-        font-family: $pt-mono; 
+        font-family: $redhat; 
         font-size: nth($fonts-size, 5);
 
         @media (max-width:900px) {
@@ -29,7 +29,7 @@ margin: map-get($block-text, margen);
 padding: map-get($block-text, pad); 
 
     p{
-        font-family: $pt-mono;
+        font-family: $redhat;
         font-size: nth($fonts-size, 6);
         @media (max-width:900px) {
             font-size: nth($fonts-size, 8)
@@ -48,7 +48,7 @@ padding: map-get($block-text, pad);
         font-size: nth($fonts-size , 4);
     }
     ul{
-        font-family: $pt-mono;
+        font-family: $redhat;
         font-size: nth($fonts-size, 6 );
         @media (max-width:900px) {
             font-size: nth($fonts-size, 8)

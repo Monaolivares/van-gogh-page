@@ -4,7 +4,7 @@
 
 .container-p-index{
     margin: nth($margin, 1 );
-    font-family: $pt-mono;
+    font-family: $redhat;
     font-size: nth($fonts-size , 6 );
     @media (max-width:900px) {
         margin:nth($margin, 2);
@@ -16,7 +16,7 @@
         margin:nth($margin, 2);
     }
     .photo-menu {
-        font-family: $pt-mono;
+        font-family: $redhat;
         &:hover{
             transform: map-get($glow-hover, trans3 );
             transition: $transition2; 

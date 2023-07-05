@@ -2,14 +2,14 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/* 7 carousel bcg*/
+/*footer glow*/
 /*7*/
 /*componentes*/
 /*variables*/
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/* 7 carousel bcg*/
+/*footer glow*/
 /*7*/
 .barra-nav {
   background-color: rgb(13, 26, 59);
@@ -55,7 +55,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/* 7 carousel bcg*/
+/*footer glow*/
 /*7*/
 .contenedor-footer {
   background-color: rgb(13, 26, 59);
@@ -78,27 +78,29 @@
     transform: scaleX(1.1) scaleY(1.1);
   }
 }
-.contenedor-footer .divlinksfooter {
+.contenedor-footer .div-sitemap {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px 0 30px 0;
+}
+.contenedor-footer .div-sitemap .h3-sm {
   font-family: "Caveat", cursive;
-  font-size: 25px;
-}
-@media (max-width: 900px) {
-  .contenedor-footer .divlinksfooter {
-    font-size: 18px;
-  }
-}
-.contenedor-footer .divlinksfooter .links-footer {
   color: rgb(254, 191, 1);
 }
-.contenedor-footer .divlinksfooter .links-footer li {
-  list-style: none;
-}
-.contenedor-footer .divlinksfooter .links-footer a {
+.contenedor-footer .div-sitemap .ali-sm {
   text-decoration: none;
   color: rgb(254, 191, 1);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+}
+.contenedor-footer .div-sitemap .ali-sm:hover {
+  transition: all 0.3s ease-in;
+  color: rgb(53, 113, 234);
+}
+.contenedor-footer .div-sitemap .li-sm {
+  list-style: square;
+  font-style: italic;
 }
 .contenedor-footer .rrsslist {
   display: flex;
@@ -112,7 +114,7 @@
   transform: scaleX(1.2) scaleY(1.2);
   transition: all 1.1s linear;
 }
-.contenedor-footer .rrsslist li {
+.contenedor-footer .rrsslist .rrssli {
   display: inline;
   text-decoration: none;
 }
@@ -121,7 +123,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/* 7 carousel bcg*/
+/*footer glow*/
 /*7*/
 .container-p-index {
   margin: 70px 0 70px 0;
@@ -162,7 +164,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/* 7 carousel bcg*/
+/*footer glow*/
 /*7*/
 .aside-life {
   color: rgb(228, 228, 175);
@@ -267,7 +269,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/* 7 carousel bcg*/
+/*footer glow*/
 /*7*/
 .letters {
   height: auto;
@@ -331,7 +333,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/* 7 carousel bcg*/
+/*footer glow*/
 /*7*/
 .p-legacy {
   font-family: "Red Hat Display", sans-serif;
@@ -408,7 +410,7 @@ h2 {
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/* 7 carousel bcg*/
+/*footer glow*/
 /*7*/
 .p-work {
   font-family: "Red Hat Display", sans-serif;
@@ -435,7 +437,7 @@ h2 {
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
-/* 7 carousel bcg*/
+/*footer glow*/
 /*7*/
 .p-paintings {
   color: rgb(33, 37, 41);
@@ -470,14 +472,14 @@ h2 {
 }
 
 .carousel-text {
-  background-color: rgba(105, 106, 108, 0.3);
+  background-color: rgba(120, 159, 236, 0.852);
 }
-.carousel-text h5 {
+.carousel-text h3 {
   font-family: "Caveat", cursive;
   font-size: 28px;
 }
 @media (max-width: 900px) {
-  .carousel-text h5 {
+  .carousel-text h3 {
     font-size: 25px;
   }
   .carousel-text .p-carousel {
@@ -492,7 +494,7 @@ h2 {
 body {
   background: linear-gradient(-45deg, rgb(233, 234, 172), rgb(241, 179, 6), rgb(221, 136, 28), rgb(240, 114, 30));
   background-size: 3000% 3000%;
-  animation: gradient 13s ease infinite;
+  animation: gradient 10s ease infinite;
   height: 100vh;
 }
 

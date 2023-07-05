@@ -23,27 +23,34 @@
             }
 
     } } 
-    .divlinksfooter{
+    .div-sitemap{
         display: nth($flex , 1 ); 
         justify-content: nth($flex , 2 );
         align-items: nth($flex , 2 );
-        font-family: $caveat;
-        font-size: nth($fonts-size, 9);
-
-        @media (max-width:900px){
-            font-size: nth($fonts-size, 6);
-        }
-        .links-footer{
-            color: nth($colores , 2 ); 
-            li{
-                list-style: none;
+        margin: nth($margin, 2); 
+            .h3-sm{
+                font-family: $caveat;
+                color: nth($colores, 2)
             }
-            a{
+
+            .ali-sm {
                 text-decoration: none;
-                color: nth($colores , 2 ); 
+                color: nth($colores, 2);
+                font-family: $redhat; 
+                font-weight: bold;
+                &:hover {
+                    transition: $transition4;
+                    color: nth($colores, 8 ); 
+                }
+    
             }
-        }
-
+            .li-sm{
+                list-style: square;
+                font-style: italic;
+            }
+        
+        
+    
     }
     .rrsslist{
         display: nth($flex , 1 ); 
@@ -57,7 +64,7 @@
             transition: $transition1; 
 
         }
-        li{
+        .rrssli{
             display: inline; 
             text-decoration: none;
         }

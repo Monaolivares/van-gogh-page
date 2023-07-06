@@ -17,6 +17,7 @@
     }
     .photo-menu {
         font-family: $redhat;
+        font-weight: bold;
         &:hover{
             transform: map-get($glow-hover, trans3 );
             transition: $transition2; 

@@ -60,13 +60,8 @@
 /* 6*/
 /*footer glow*/
 /*7*/
-.row-footer {
-  --bs-gutter: 0;
-}
-
 .contenedor-footer {
   background-color: rgb(13, 26, 59);
-  margin: 70px 0 0 0;
   padding: 20px 0 20px 0;
 }
 .contenedor-footer .divlogofooter {
@@ -122,9 +117,21 @@
   transform: scaleX(1.2) scaleY(1.2);
   transition: all 1.1s linear;
 }
+.contenedor-footer .rrsslist ul {
+  display: inline;
+}
 .contenedor-footer .rrsslist .rrssli {
   display: inline;
   text-decoration: none;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.row-footer {
+  display: flex;
+  justify-content: center;
 }
 
 /*variables*/
@@ -155,6 +162,7 @@
 }
 .photo-menu-container .photo-menu {
   font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
 }
 .photo-menu-container .photo-menu:hover {
   transform: scaleX(1.1) scaleY(1.1);

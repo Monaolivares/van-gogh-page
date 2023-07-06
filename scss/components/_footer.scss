@@ -2,13 +2,12 @@
 @import '../abstract/listas'; 
 @import '../abstract/mapas'; 
 
-.row-footer{
-    --bs-gutter: 0; 
-}
+
+
 
 .contenedor-footer {
+    
     background-color: nth($colores , 3);
-    margin:nth($margin, 4); 
     padding: nth($padding, 3);
     .divlogofooter { 
         display: nth($flex , 1 ); 
@@ -67,6 +66,9 @@
             transition: $transition1; 
 
         }
+        ul {
+            display: inline; 
+        }
         .rrssli{
             display: inline; 
             text-decoration: none;
@@ -75,4 +77,12 @@
     }
 
 }
+
+.row{
+    --bs-gutter-x: 0; 
+}
+ .row-footer{
+    display: nth($flex, 1); 
+    justify-content: nth($flex, 2);
+ }
 

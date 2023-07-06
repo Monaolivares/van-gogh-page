@@ -3,6 +3,11 @@
 @import '../abstract/mapas'; 
 
 .letters {
+    height: auto; 
+    background-color: map-get($block-text, fondo);
+    color: map-get($block-text, letra); 
+    margin: map-get($block-text, margen);
+    padding: map-get($block-text, pad); 
     p {
         font-family: $redhat;
         font-size: nth($fonts-size, 6);
@@ -28,13 +33,32 @@
             font-size: nth($fonts-size, 5);
         }
     }
+    .letter-photo-row {
+        display: nth($flex, 1); 
+        justify-content: nth($flex, 2);
+        .img-theo{
+            border-radius: 50%;
+            @media (max-width:900px){
+            width: 250px; 
+            height: auto; 
+        
+        }
+
+        }
+        .img-jo{
+            border-radius: 50%;
+            @media (max-width:950px) {
+                width: 250px; 
+                height: auto; 
+        }
+    }
 
     .div-imgletter {
         display: nth($flex, 1); 
         justify-content: nth($flex, 2);
-        .letters-photo{
-            border-radius: 50%;
-        }
+        
+        
+       
 
     }
     .div-imgletters {
@@ -46,16 +70,15 @@
         flex-wrap: wrap;
         align-content: space-around; 
         .letter2{
-            margin: nth($margin, 6)
+            margin: nth($margin, 6);
+            
+                
+            }
         }
     }
     }
 
-    height: auto; 
-    background-color: map-get($block-text, fondo);
-    color: map-get($block-text, letra); 
-    margin: map-get($block-text, margen);
-    padding: map-get($block-text, pad); 
+   
 
 
 }

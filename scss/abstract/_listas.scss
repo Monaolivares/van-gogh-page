@@ -3,7 +3,9 @@ $flex:
 flex, 
 center, 
 space-around,
-space-between; 
+space-between, 
+row, /* 5*/
+flex-end; /* 6*/
 
 $fonts-size:
  65px, /* 1- h1 index*/
@@ -44,6 +46,7 @@ $margin:
 
 $padding:
 8px 20px 8px 8px, 
-3px; 
+3px, 
+20px 0 20px 0; 
 
 

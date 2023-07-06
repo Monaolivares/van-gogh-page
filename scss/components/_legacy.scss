@@ -11,8 +11,18 @@
         
     }
 }
-
+.row-quote{
+    display: nth($flex, 1); 
+    flex-direction: nth($flex, 5);
+    justify-content: nth($flex, 6);
+}
 #quote{
+    margin: 30px 10px 30px 0px; 
+    text-align: right;
+    font-weight: bold;
+    
+
+
     .p-quote{
         font-family: $redhat; 
         font-size: nth($fonts-size, 5);
@@ -62,7 +72,7 @@ padding: map-get($block-text, pad);
 
     }
 
-    .divimglegacy {
+    .legacy-photo-row{
         display: nth($flex, 1 );
         justify-content: nth($flex, 2);
         padding: 20px 0 20px 0; 

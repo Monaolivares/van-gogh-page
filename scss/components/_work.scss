@@ -11,17 +11,23 @@
 .container-photos-work {
     display: nth($flex, 1); 
     justify-content: nth($flex, 2);
-    a{
-        color: nth($colores, 4);
-        text-decoration: none;
-        font-family: $caveat;
-        font-size: nth($fonts-size, 9);
-        justify-self: center;
-    }
-    
+
+    .work-menu-photo {
+        display: flex; 
+        justify-content: center;
+        a{
+            color: nth($colores, 4);
+            text-decoration: none;
+            font-family: $caveat;
+            font-size: nth($fonts-size, 9);
+            justify-self: center;
+        }
         .div-p-work{
-            display: nth($flex, 1); 
+            display: nth($flex, 1 );
             justify-content: nth($flex, 2);
         }
+    }
+   
+    
    
 }

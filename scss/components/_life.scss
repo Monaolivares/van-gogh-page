@@ -39,14 +39,7 @@
         justify-content: nth($flex, 2);
         margin: nth($margin, 6); 
 }
-    .img-potato{
-        @media (max-width:1000px) {
-            max-width: 100%;
-            height: auto;
-            width: auto\9;
-        } 
-       
-    }
+    
     
     .img-tomb {
         @media (max-width:1000px) {
@@ -99,5 +92,15 @@
             font-size: nth($fonts-size, 8);
             
         }
+    }
+}
+
+.life-photo-row{
+    display: flex; 
+    justify-content: center; 
+    margin: nth($margin, 2); 
+
+    .img-potato{
+        justify-self: center; 
     }
 }

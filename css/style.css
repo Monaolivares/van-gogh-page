@@ -2,6 +2,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
+/* 6*/
 /*footer glow*/
 /*7*/
 /*componentes*/
@@ -9,6 +10,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
+/* 6*/
 /*footer glow*/
 /*7*/
 .barra-nav {
@@ -55,11 +57,17 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
+/* 6*/
 /*footer glow*/
 /*7*/
+.row-footer {
+  --bs-gutter: 0;
+}
+
 .contenedor-footer {
   background-color: rgb(13, 26, 59);
   margin: 70px 0 0 0;
+  padding: 20px 0 20px 0;
 }
 .contenedor-footer .divlogofooter {
   display: flex;
@@ -98,8 +106,8 @@
   transition: all 0.3s ease-in;
   color: rgb(53, 113, 234);
 }
-.contenedor-footer .div-sitemap .li-sm {
-  list-style: square;
+.contenedor-footer .div-sitemap li {
+  list-style: none;
   font-style: italic;
 }
 .contenedor-footer .rrsslist {
@@ -123,6 +131,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
+/* 6*/
 /*footer glow*/
 /*7*/
 .container-p-index {
@@ -164,6 +173,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
+/* 6*/
 /*footer glow*/
 /*7*/
 .aside-life {
@@ -202,13 +212,6 @@
   display: flex;
   justify-content: center;
   margin: 10px 0 10px 0;
-}
-@media (max-width: 1000px) {
-  .life .img-potato {
-    max-width: 100%;
-    height: auto;
-    width: auto\9 ;
-  }
 }
 @media (max-width: 1000px) {
   .life .img-tomb {
@@ -265,10 +268,20 @@
   }
 }
 
+.life-photo-row {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+}
+.life-photo-row .img-potato {
+  justify-self: center;
+}
+
 /*variables*/
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
+/* 6*/
 /*footer glow*/
 /*7*/
 .letters {
@@ -307,24 +320,43 @@
     font-size: 20px;
   }
 }
-.letters .div-imgletter {
+.letters .letter-photo-row {
   display: flex;
   justify-content: center;
 }
-.letters .div-imgletter .letters-photo {
+.letters .letter-photo-row .img-theo {
   border-radius: 50%;
 }
-.letters .div-imgletters {
+@media (max-width: 900px) {
+  .letters .letter-photo-row .img-theo {
+    width: 250px;
+    height: auto;
+  }
+}
+.letters .letter-photo-row .img-jo {
+  border-radius: 50%;
+}
+@media (max-width: 950px) {
+  .letters .letter-photo-row .img-jo {
+    width: 250px;
+    height: auto;
+  }
+}
+.letters .letter-photo-row .div-imgletter {
+  display: flex;
+  justify-content: center;
+}
+.letters .letter-photo-row .div-imgletters {
   display: flex;
   justify-content: space-around;
 }
 @media (max-width: 950px) {
-  .letters .div-imgletters {
+  .letters .letter-photo-row .div-imgletters {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
   }
-  .letters .div-imgletters .letter2 {
+  .letters .letter-photo-row .div-imgletters .letter2 {
     margin: 10px 0 10px 0;
   }
 }
@@ -333,6 +365,7 @@
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
+/* 6*/
 /*footer glow*/
 /*7*/
 .p-legacy {
@@ -345,6 +378,17 @@
   }
 }
 
+.row-quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#quote {
+  margin: 30px 10px 30px 0px;
+  text-align: right;
+  font-weight: bold;
+}
 #quote .p-quote {
   font-family: "Red Hat Display", sans-serif;
   font-size: 20px;
@@ -395,7 +439,7 @@
   justify-content: center;
   padding: 20px 0 20px 0;
 }
-.legacy .divimglegacy {
+.legacy .legacy-photo-row {
   display: flex;
   justify-content: center;
   padding: 20px 0 20px 0;
@@ -410,6 +454,7 @@ h2 {
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
+/* 6*/
 /*footer glow*/
 /*7*/
 .p-work {
@@ -421,14 +466,18 @@ h2 {
   display: flex;
   justify-content: center;
 }
-.container-photos-work a {
+.container-photos-work .work-menu-photo {
+  display: flex;
+  justify-content: center;
+}
+.container-photos-work .work-menu-photo a {
   color: rgb(33, 37, 41);
   text-decoration: none;
   font-family: "Caveat", cursive;
   font-size: 25px;
   justify-self: center;
 }
-.container-photos-work .div-p-work {
+.container-photos-work .work-menu-photo .div-p-work {
   display: flex;
   justify-content: center;
 }
@@ -437,6 +486,7 @@ h2 {
 /*fonts y font-sizes*/
 /*animaciones*/
 /*margin y padding*/
+/* 6*/
 /*footer glow*/
 /*7*/
 .p-paintings {
@@ -493,7 +543,7 @@ h2 {
 
 body {
   background: linear-gradient(-45deg, rgb(233, 234, 172), rgb(241, 179, 6), rgb(221, 136, 28), rgb(240, 114, 30));
-  background-size: 3000% 3000%;
+  background-size: 5000% 5000%;
   animation: gradient 10s ease infinite;
   height: 100vh;
 }

@@ -15,10 +15,12 @@
     .work-menu-photo {
         display: flex; 
         justify-content: center;
+        
         a{
             color: nth($colores, 4);
             text-decoration: none;
             font-family: $caveat;
+            font-weight: bold;
             font-size: nth($fonts-size, 9);
             justify-self: center;
         }
@@ -30,4 +32,9 @@
    
     
    
+}
+
+.row-work-photos {
+    display: nth($flex, 1);
+    justify-content: nth($flex, 5);
 }

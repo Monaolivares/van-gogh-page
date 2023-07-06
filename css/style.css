@@ -171,6 +171,10 @@
   font-family: "Gochi Hand", cursive;
   font-size: 25px;
 }
+.photo-menu-container .divpindex {
+  display: flex;
+  justify-content: center;
+}
 
 .photo-link {
   text-decoration: none;
@@ -482,12 +486,18 @@ h2 {
   color: rgb(33, 37, 41);
   text-decoration: none;
   font-family: "Caveat", cursive;
+  font-weight: bold;
   font-size: 25px;
   justify-self: center;
 }
 .container-photos-work .work-menu-photo .div-p-work {
   display: flex;
   justify-content: center;
+}
+
+.row-work-photos {
+  display: flex;
+  justify-content: row;
 }
 
 /*variables*/

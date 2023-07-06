@@ -27,6 +27,10 @@
             
             }
         }
+        .divpindex {
+            display: nth($flex, 1);
+            justify-content: nth($flex, 2);
+        }
     }
     .photo-link{
         text-decoration: none;

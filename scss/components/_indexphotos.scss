@@ -18,6 +18,8 @@
     .photo-menu {
         font-family: $redhat;
         font-weight: bold;
+        display: nth($flex, 1);
+        justify-content: nth($flex, 2);
         &:hover{
             transform: map-get($glow-hover, trans3 );
             transition: $transition2; 

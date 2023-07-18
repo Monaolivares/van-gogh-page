@@ -7,12 +7,13 @@
     background-color: nth($colores, 3);
     opacity: 80%;
     width: fit-content; 
-    height: auto; 
+    height: fit-content; 
     padding: nth($padding, 1); 
     border-radius: 20px;
     margin: nth($margin, 5); 
+    font-size: nth($fonts-size, 5);
     @media (max-width:900px){
-        font-size: nth($fonts-size, 10);
+        font-size: nth($fonts-size, 13);
         padding: nth($padding, 2)
 
     }
@@ -70,26 +71,26 @@
     
     h2 {
         font-family: $gochi;
-        font-size: nth($fonts-size, 3);
+        font-size: nth($fonts-size, 12);
         font-weight: bold;
         @media (max-width:900px) {
-            font-size: nth($fonts-size, 5);
+            font-size: nth($fonts-size, 3);
         }
 
     }
     h3 {
         font-family: $gochi;
-        font-size: nth($fonts-size, 9);
+        font-size: nth($fonts-size, 3);
         font-weight: bold;
         @media (max-width:900px) {
-            font-size: nth($fonts-size, 5);
+            font-size: nth($fonts-size, 4);
         }
     }
     p{
         font-family: $redhat;
-        font-size: nth($fonts-size, 6);
+        font-size: nth($fonts-size, 5);
         @media (max-width: 900px){
-            font-size: nth($fonts-size, 8);
+            font-size: nth($fonts-size, 13);
             
         }
     }

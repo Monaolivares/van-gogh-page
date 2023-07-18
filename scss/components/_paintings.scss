@@ -25,14 +25,17 @@
 .h3-paintings {
     font-family: $gochi;
     font-size: nth($fonts-size, 4); 
+
 }
 
 .carousel-icon {
     background-color: nth($colores, 6 );
     border-radius: 50%;
 }
+
 .carousel-text{
     background-color: nth($colores, 7 );
+
     h3{
         font-family: $caveat;
         font-size: nth($fonts-size, 4);
@@ -40,7 +43,7 @@
 
     @media (max-width:900px) {
         h3 {
-            font-size: nth($fonts-size, 9);
+            font-size: nth($fonts-size, 6);
         }
         .p-carousel{
             display: none; 

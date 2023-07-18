@@ -55,9 +55,64 @@
     
     }
     .rrsslist{
-        display: nth($flex , 1 ); 
-        justify-content: nth($flex , 2 );
-        align-items: nth($flex , 2 );
+        display: nth($grid, 1 ); 
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-rows: 100%;
+        column-gap: 15px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px 20px 20px;
+        grid-template-areas: "facebook instagram twitter youtube";
+        .facebook{
+            grid-area: facebook; 
+            justify-self: nth($flex, 2);
+            align-self: nth($flex, 2);
+           
+        }
+        .instagram{
+            grid-area: instagram;
+            justify-self: nth($flex, 2);
+            align-self: nth($flex, 2);
+        }
+        .twitter{
+            grid-area: twitter; 
+            justify-self: nth($flex, 2);
+            align-self: nth($flex, 2);
+        }
+        .youtube{
+            grid-area: youtube; 
+            justify-self: nth($flex, 2);
+            align-self: nth($flex, 2);
+        }
+        @media (max-width:1150px) {
+            grid-template-columns: 35% 35%;
+            grid-template-rows: 40% 40%; 
+            grid-template-areas:  
+            "facebook instagram"
+            "twitter youtube"; 
+            row-gap: 15px; 
+            .facebook{
+                align-self: flex-end;
+            }
+            .instagram {
+                align-self: flex-end; 
+            }
+            .twitter {
+                align-self: flex-start;
+            }
+            .youtube {
+                align-self: flex-start; 
+            }
+            }
+        @media (max-width:520px) {
+            grid-template-columns: 60%;
+            grid-template-rows: 20% 20% 20% 20%; 
+            grid-template-areas: "facebook" "instagram" "twitter" "youtube";
+        }
+
+        
+
+       
         .rrss-logo:hover{
             background-color: map-get($glow-hover , bgc-gh );
             box-shadow: map-get($glow-hover , bs-gh );
@@ -74,15 +129,39 @@
             text-decoration: none;
         }
 
+
     }
 
 }
 
 .row{
     --bs-gutter-x: 0; 
+    display: nth($flex, 1);
+    justify-content: nth($flex, 2);
 }
  .row-footer{
     display: nth($flex, 1); 
     justify-content: nth($flex, 2);
  }
 
+.div-form{
+    display: nth($flex, 1 );
+    justify-content: nth($flex, 2 );
+}
+
+
+.form-text{
+    width: 200px; 
+    background-color: nth($colores, 5);
+    color: nth($colores, 4);
+
+
+}
+.boton{
+  background-color: nth($colores, 2); 
+  border-radius: 15%; 
+  color: nth($colores, 4); 
+  padding: 3px; 
+  margin: 5px; 
+  cursor: pointer;
+}

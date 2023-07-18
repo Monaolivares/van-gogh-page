@@ -7,19 +7,27 @@ space-between,
 row, /* 5*/
 flex-end; /* 6*/
 
+$grid:
+grid, 
+1fr 1fr 1fr 1fr,
+1fr, 
+1fr 1fr;
+
+
 $fonts-size:
  65px, /* 1- h1 index*/
  53px, /* 2- h1 pages*/
- 35px, /* h2 en block*/
- 28px, 
- 20px, /* 5 */
- 18px, /* 6- p en block text*/
+ 35px, /*h3 block y h2 en media*/
+ 28px, /* 4 h3 en media */
+ 22px, /* 5 p en block text */
+ 18px, /* 6*/
  15px, 
- 13px,  /* 8 para p en mobil*/
- 25px, /* 9 h3 en block*/ 
+ 13px,  /* 8 */
+ 25px, /* 9*/ 
  11px,  /* 10*/
  16px,
- 40px; 
+ 40px, /* 12 h2 block*/
+ 16px; /*13 p en media y aside */
  
 
 $colores:
@@ -29,7 +37,7 @@ rgb(13,26,59), /*azul fondo*/
 rgb(33,37,41), /*azul letras*/
 rgb(228, 228, 175), 
 rgb(75, 100, 137), /*aside*/
-rgba(120, 159, 236, 0.852), /* 7 carousel bcg*/
+rgba(156, 175, 213, 0.2), /* 7 carousel bcg*/
 rgb(53, 113, 234); /*footer glow*/
 
 
